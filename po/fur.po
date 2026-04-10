@@ -5,6 +5,8 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Fabio Tomat <f.t.public@gmail.com>, 2026
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -12,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Friulian (https://app.transifex.com/mate/teams/13566/fur/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -248,7 +250,7 @@ msgstr ""
 #: mate-panel/panel-run-dialog.ui:55 mate-panel/panel.c:688
 #: mate-panel/panel.c:1491
 msgid "_Cancel"
-msgstr ""
+msgstr "_Anule"
 
 #: applets/clock/clock.ui:62
 msgid "_Set System Time"
@@ -331,7 +333,7 @@ msgstr "_Modifiche"
 
 #: applets/clock/clock.ui:671
 msgid "_Remove"
-msgstr ""
+msgstr "_Gjave"
 
 #: applets/clock/clock.ui:732
 msgid "Display"
@@ -2063,12 +2065,12 @@ msgstr ""
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:169
 msgid "File is not a valid .desktop file"
-msgstr ""
+msgstr "Il file nol è un file .desktop valit"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:194
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
+msgstr "Version di file desktop '%s' no ricognossude"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:984
 #, c-format
@@ -2077,16 +2079,16 @@ msgstr "Inviament di %s"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1126
 msgid "Application does not accept documents on command line"
-msgstr ""
+msgstr "La aplicazion no acete documents a rie di comant"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1194
 #, c-format
 msgid "Unrecognized launch option: %d"
-msgstr ""
+msgstr "Opzion di inviament no ricognossude: %d"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1410
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
+msgstr "Impussibil passâ i URIs di document a une vôs desktop 'Type=Link'"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1431
 msgid "Not a launchable item"
@@ -2098,11 +2100,11 @@ msgstr "Disabilite la conession al gjestôr di session"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "Specify file containing saved configuration"
-msgstr ""
+msgstr "Specifiche il file che al conten la configurazion salvade"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "FILE"
-msgstr ""
+msgstr "FILE"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:244
 msgid "Specify session management ID"
@@ -2114,7 +2116,7 @@ msgstr "ID"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:270
 msgid "Session management options:"
-msgstr ""
+msgstr "Opzions di gjestion de session:"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:271
 msgid "Show session management options"

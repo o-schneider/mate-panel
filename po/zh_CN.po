@@ -16,7 +16,7 @@
 # liu lizhi <xingzuo88@qq.com>, 2020
 # e0c668032ced196bd60f2b6a070d982d_8f72ae0, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2023
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2023
 # Wenbin Lv <wenbin816@gmail.com>, 2023
 # 
 msgid ""

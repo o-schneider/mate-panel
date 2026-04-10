@@ -1,7 +1,6 @@
-# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2018
 # df3de0cb43d289cd23a753345b3743cd_a20684f, 2018
 # Guillaume Fayard <guillaume2.fayard@wanadoo.fr>, 2018
 # Laurent Napias <tamplan+transifex@free.fr>, 2018
@@ -9,14 +8,16 @@
 # Charles Monzat <c.monzat@laposte.net>, 2018
 # Laurent Napias, 2020
 # Tubuntu, 2020
-# Stéphane PETRUS <stephane.petrus@posteo.net>, 2021
+# Stéphane PETRUS <stephane.petrus@mailfence.com>, 2021
+# David D, 2025
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:36+0200\n"
 "PO-Revision-Date: 2018-09-28 13:34+0000\n"
-"Last-Translator: Stéphane PETRUS <stephane.petrus@posteo.net>, 2021\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: French (https://app.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -172,7 +173,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:163
 msgid "Telsa Gwynne <email>hobbit@aloss.ukuu.org.uk</email>"
-msgstr ""
+msgstr "Telsa Gwynne <email>hobbit@aloss.ukuu.org.uk</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:159
@@ -184,7 +185,7 @@ msgstr ""
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:169
 msgid "This manual describes version 1.10.1 of Fish."
-msgstr ""
+msgstr "Ce manuel décrit la version 1.10;1 de Fish."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:172
@@ -198,6 +199,9 @@ msgid ""
 "manual, follow the directions in the <ulink url=\"help:mate-user-"
 "guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
+"Pour signaler un bug ou faire une suggestion en rapport avec l'applet Fish "
+"ou ce manuel, suivez les instructions de <ulink url=\"help:mate-user-"
+"guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:179
@@ -205,6 +209,8 @@ msgid ""
 "The Fish applet displays an animated image in the panel and gives you your "
 "fortune when clicked."
 msgstr ""
+"L’applet Fish affiche une image animée dans le panneau et vous affiche votre"
+" citation lorsque vous cliquez dessus."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:183
@@ -240,6 +246,9 @@ msgid ""
 " </imageobject> <textobject> <phrase>Shows Fish applet.</phrase> "
 "</textobject>"
 msgstr ""
+"<imageobject><imagedata fileref=\"figures/fish_applet.png\" format=\"PNG\"/>"
+" </imageobject> <textobject> <phrase>Montre l'applet Fish.</phrase> "
+"</textobject>"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:205
@@ -339,7 +348,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:250
 msgid "<guilabel>Name of fish</guilabel>"
-msgstr ""
+msgstr "<guilabel>Nom du poisson</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:252
@@ -349,7 +358,7 @@ msgstr "Utilisez ce champ pour donner un nom au poisson."
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:256
 msgid "<guilabel>Command to run when clicked</guilabel>"
-msgstr ""
+msgstr "<guilabel>Commande à exécuter lorsque cliqué</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:258
@@ -380,7 +389,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:268
 msgid "<guilabel>Total frames in animation</guilabel>"
-msgstr ""
+msgstr "<guilabel>Nombre total d’images en animation</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:270
@@ -392,7 +401,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:274
 msgid "<guilabel>Pause per frame</guilabel>"
-msgstr ""
+msgstr "<guilabel>Pause par trame</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:276
@@ -406,7 +415,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:280
 msgid "<guilabel>Rotate on vertical panels</guilabel>"
-msgstr ""
+msgstr "<guilabel>Rotation sur panneaux verticaux</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:282

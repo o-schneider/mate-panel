@@ -6,15 +6,16 @@
 # Translators:
 # 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2018
 # Bohdan Kovalchuk <neostanniy@gmail.com>, 2018
-# zubr139, 2018
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2018
 # Denis <prohibiti@gmail.com>, 2018
-# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2018
+# Анатолій Романович Шаповалов <elrond.716.smith@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Taras Panchenko <top39@ukr.net>, 2021
 # Микола Ткач <chistomov@gmail.com>, 2021
-# Sergiy <sergiy@gorichenko.com>, 2022
-# Wolfgang Ulbrich <mate@raveit.de>, 2023
+# Serhii <sergiy@gorichenko.com>, 2022
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2023
+# zubr139, 2025
+# dsafsadf <heneral@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -22,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Last-Translator: dsafsadf <heneral@gmail.com>, 2025\n"
 "Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -249,7 +250,8 @@ msgid "translator-credits"
 msgstr ""
 "Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
 "Микола Ткач <Stuartlittle1970@gmail.com>,\n"
-"Oleh Tsyupka <myr4yk@gmail.com>"
+"Oleh Tsyupka <myr4yk@gmail.com>\n"
+"Юрій Яновський <lytvyn349@ukr.net>"
 
 #: applets/clock/clock.ui:31
 msgid "Time & Date"
@@ -350,7 +352,7 @@ msgstr "В_илучити"
 
 #: applets/clock/clock.ui:732
 msgid "Display"
-msgstr "Зовнішній вигляд"
+msgstr "Відображення"
 
 #: applets/clock/clock.ui:769
 msgid "_Visibility unit:"
@@ -779,7 +781,7 @@ msgstr "Анімація"
 #: applets/fish/fish.ui:266 mate-panel/panel-properties-dialog.ui:482
 #: mate-panel/panel-properties-dialog.ui:635
 msgid "    "
-msgstr "    "
+msgstr "термінологія"
 
 #: applets/fish/fish.ui:300
 msgid "_File:"
@@ -803,7 +805,7 @@ msgstr "кадрів"
 
 #: applets/fish/fish.ui:403
 msgid "seconds"
-msgstr "секунд"
+msgstr "секунди"
 
 #: applets/fish/fish.ui:455
 msgid "_Rotate on vertical panels"
@@ -983,7 +985,7 @@ msgstr ""
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:25
 msgid "Whether to enable mouse scrolling in the switch window list"
-msgstr "Чи потрібно вмикати прокрутку миші у перемикачі списку вікон "
+msgstr "Чи потрібно вмикати прокрутку миші у перемикачі списку вікон"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:26
 msgid ""
@@ -991,17 +993,19 @@ msgid ""
 "scrolling in window list."
 msgstr ""
 "Якщо так, увімкнеться прокрутка миші у списку вікон, в іншому випадку "
-"прокрутку миші у списку вікон буде вимкнено "
+"прокрутку миші у списку вікон буде вимкнено"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:30
 msgid "Close window on middle mouse click"
-msgstr ""
+msgstr "Закрити вікно, клацнувши середньою кнопкою миші"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:31
 msgid ""
 "If true, then clicking the middle mouse button over a taskbar item will "
 "close the window."
 msgstr ""
+"Якщо істина, то натискання середньої кнопки миші на елементі панелі завдань "
+"закриє вікно."
 
 #: applets/wncklet/org.mate.panel.applet.workspace-switcher.gschema.xml.in:5
 msgid "Display workspace names"
@@ -1102,7 +1106,7 @@ msgstr "Приховати вікна додатків і показати ст�
 #: applets/wncklet/showdesktop.c:181
 #, c-format
 msgid "Failed to load %s: %s\n"
-msgstr "Помилка при завантаженні %s: %s\n"
+msgstr "Помилка при завантаженні %s: %s"
 
 #: applets/wncklet/showdesktop.c:181
 msgid "Icon not found"
@@ -1211,7 +1215,7 @@ msgstr "Середня кнопка миші"
 
 #: applets/wncklet/window-list.ui:311
 msgid "_Click to close window"
-msgstr ""
+msgstr "_Натисніть, щоб закрити вікно"
 
 #: applets/wncklet/window-list.ui:348
 msgid "Mouse Scrolling"
@@ -1662,7 +1666,7 @@ msgstr ""
 
 #: data/org.mate.panel.object.gschema.xml.in:20
 msgid "Interpret position relative to bottom/right edge (DEPRECATED)"
-msgstr ""
+msgstr "Інтерпретувати позицію відносно нижнього/правого краю (ЗАСТАРІЛЕ)"
 
 #: data/org.mate.panel.object.gschema.xml.in:21
 msgid ""
@@ -1671,12 +1675,18 @@ msgid ""
 "backward compatibility with old panel layouts; please set the \"relative-to-"
 "edge\" property instead."
 msgstr ""
+"Якщо істина, позиція об'єкта інтерпретується відносно правого (або нижнього,"
+" якщо панель вертикальна) краю панелі. Цей ключ надається лише для зворотної"
+" сумісності зі старими макетами панелей; натомість встановіть властивість "
+"\"relative-to-edge\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:25
 msgid ""
 "Whether to interpret the value of the \"position\" key relative to the "
 "start, center or end of the panel"
 msgstr ""
+"Чи інтерпретувати значення ключа \"position\" відносно початку, центру або "
+"кінця панелі"
 
 #: data/org.mate.panel.object.gschema.xml.in:26
 msgid ""
@@ -1685,6 +1695,10 @@ msgid ""
 "to the start (left/top edge), center, or end (right/bottom edge) of the "
 "panel. Valid values for this key are 'start', 'center', and 'end'."
 msgstr ""
+"Позиція об'єкта інтерпретується відносно одного краю панелі. Значення цього "
+"ключа визначає, чи розташований об'єкт відносно початку (лівий/верхній "
+"край), центру або кінця (правий/нижній край) панелі. Допустимі значення для "
+"цього ключа: 'start', 'center' та 'end'."
 
 #: data/org.mate.panel.object.gschema.xml.in:30
 msgid "Lock the object to the panel"
@@ -1706,6 +1720,9 @@ msgid ""
 "\"ClockAppletFactory::ClockApplet\". This key is only relevant if the "
 "object-type key is 'applet'."
 msgstr ""
+"Ідентифікатор реалізації аплету - наприклад, "
+"\"ClockAppletFactory::ClockApplet\". Цей ключ актуальний лише якщо ключ "
+"object-type має значення 'applet'."
 
 #: data/org.mate.panel.object.gschema.xml.in:40
 msgid "Panel attached to drawer"
@@ -1716,6 +1733,8 @@ msgid ""
 "The identifier of the panel attached to this drawer. This key is only "
 "relevant if the object-type key is 'drawer'."
 msgstr ""
+"Ідентифікатор панелі, прикріпленої до цього висувного елемента. Цей ключ "
+"актуальний лише якщо ключ object-type має значення 'drawer'."
 
 #: data/org.mate.panel.object.gschema.xml.in:45
 msgid "Tooltip displayed for drawer or menu"
@@ -1726,6 +1745,9 @@ msgid ""
 "The text to display in a tooltip for this drawer or this menu. This key is "
 "only relevant if the object-type key is 'drawer' or 'menu'."
 msgstr ""
+"Текст для відображення у підказці для цього висувного елемента або цього "
+"меню. Цей ключ актуальний лише якщо ключ object-type має значення 'drawer' "
+"або 'menu'."
 
 #: data/org.mate.panel.object.gschema.xml.in:50
 msgid "Use custom icon for object's button"
@@ -1737,6 +1759,9 @@ msgid ""
 "false, the custom-icon key is ignored. This key is only relevant if the "
 "object-type key is 'menu' or 'drawer-object'."
 msgstr ""
+"Якщо істина, ключ custom_icon використовується як власна піктограма для "
+"кнопки. Якщо хиба, ключ custom-icon ігнорується. Цей ключ актуальний лише "
+"якщо ключ object-type має значення 'menu' або 'drawer-object'."
 
 #: data/org.mate.panel.object.gschema.xml.in:55
 msgid "Icon used for object's button"
@@ -1748,6 +1773,9 @@ msgid ""
 "This key is only relevant if the object-type key is 'drawer' or 'menu' and "
 "the use-custom-icon key is true."
 msgstr ""
+"Розташування файлу зображення, що використовується як піктограма для кнопки "
+"об'єкта. Цей ключ актуальний лише якщо ключ object-type має значення "
+"'drawer' або 'menu' та ключ use-custom-icon має значення істина."
 
 #: data/org.mate.panel.object.gschema.xml.in:60
 msgid "Use custom path for menu contents"
@@ -1759,6 +1787,9 @@ msgid ""
 "should be constructed. If false, the menu-path key is ignored. This key is "
 "only relevant if the object-type key is 'menu'."
 msgstr ""
+"Якщо істина, ключ menu_path використовується як шлях, з якого слід будувати "
+"вміст меню. Якщо хиба, ключ menu-path ігнорується. Цей ключ актуальний лише "
+"якщо ключ object-type має значення 'menu'."
 
 #: data/org.mate.panel.object.gschema.xml.in:65
 msgid "Menu content path"
@@ -1769,6 +1800,8 @@ msgid ""
 "The path from which the menu contents is contructed. This key is only "
 "relevant if the use-menu-path key is true and the object-type key is 'menu'."
 msgstr ""
+"Шлях, з якого будується вміст меню. Цей ключ актуальний лише якщо ключ use-"
+"menu-path має значення істина та ключ object-type має значення 'menu'."
 
 #: data/org.mate.panel.object.gschema.xml.in:70
 msgid "Draw arrow in menu button"
@@ -1791,6 +1824,8 @@ msgid ""
 "The location of the .desktop file describing the launcher. This key is only "
 "relevant if the object-type key is 'launcher'."
 msgstr ""
+"Розташування файлу .desktop, що описує запускач. Цей ключ актуальний лише "
+"якщо ключ object-type має значення 'launcher'."
 
 #: data/org.mate.panel.object.gschema.xml.in:80
 msgid "Action button type"
@@ -1802,6 +1837,9 @@ msgid ""
 "'logout', 'run', 'search', 'force-quit', 'connect-server' and 'shutdown'. "
 "This key is only relevant if the object-type key is 'action'."
 msgstr ""
+"Тип дії, яку представляє ця кнопка. Можливі значення: 'none', 'lock', "
+"'logout', 'run', 'search', 'force-quit', 'connect-server' та 'shutdown'. Цей"
+" ключ актуальний лише якщо ключ object-type має значення 'action'."
 
 #: data/org.mate.panel.toplevel.gschema.xml.in:5
 msgid "Name to identify panel"
@@ -2142,7 +2180,7 @@ msgstr ""
 
 #: data/org.mate.panel.toplevel.gschema.xml.in:123
 msgid "Background image"
-msgstr "Зображення тла"
+msgstr "Фонове зображення"
 
 #: data/org.mate.panel.toplevel.gschema.xml.in:124
 msgid ""
@@ -2215,7 +2253,7 @@ msgstr "Невідомий параметр запуску: %d"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1410
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Неможливо передати URI документу у лейбу типу «Посилання»"
+msgstr "Неможливо передати URI документа у лейбу типу «Посилання»"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1431
 msgid "Not a launchable item"
@@ -2303,7 +2341,7 @@ msgstr "Не вдається знайти порожнє місце"
 #: mate-panel/drawer.c:441 mate-panel/panel-addto.c:190
 #: mate-panel/panel-toplevel.c:1640
 msgid "Drawer"
-msgstr "Шухляда"
+msgstr "шухляда"
 
 #: mate-panel/drawer.c:546
 msgid "_Add to Drawer..."
@@ -2366,12 +2404,12 @@ msgstr "Не вдається використати кинутий елемен
 
 #: mate-panel/launcher.c:451
 msgid "No URI provided for panel launcher desktop file\n"
-msgstr "Не встановлено URI для файлу пускача панелі\n"
+msgstr "Не встановлено URI для файлу пускача панелі"
 
 #: mate-panel/launcher.c:490
 #, c-format
 msgid "Unable to open desktop file %s for panel launcher%s%s\n"
-msgstr "Не вдається відкрити файл %s для пускача панелі%s%s\n"
+msgstr "Не вдається відкрити файл %s для пускача панелі%s%s"
 
 #: mate-panel/launcher.c:599
 msgid "_Launch"
@@ -2380,7 +2418,7 @@ msgstr "_Запустити"
 #: mate-panel/launcher.c:937
 #, c-format
 msgid "Key %s is not set, cannot load launcher\n"
-msgstr "Ключ %s не встановлено, неможливо завантажити пускача\n"
+msgstr "Ключ %s не встановлено, неможливо завантажити пускача"
 
 #: mate-panel/launcher.c:1072 mate-panel/panel-ditem-editor.c:1177
 #: mate-panel/panel-ditem-editor.c:1211 mate-panel/panel-ditem-editor.c:1241
@@ -2518,7 +2556,7 @@ msgstr "Компактне меню"
 
 #: mate-panel/panel-addto.c:166
 msgid "Classic Menu"
-msgstr " Класичне меню"
+msgstr "Класичне меню"
 
 #: mate-panel/panel-addto.c:167
 msgid "The classic Applications, Places and System menu bar"
@@ -3103,7 +3141,7 @@ msgstr "Буде запущено: \"%s\""
 msgid "URI list dropped on run dialog had wrong format (%d) or length (%d)\n"
 msgstr ""
 "Перелік URI перетягнений на діалог запуску, має неправильний формат (%d), "
-"або довжину (%d)\n"
+"або довжину (%d)"
 
 #: mate-panel/panel-run-dialog.ui:23
 msgid "Run Application"
@@ -3277,7 +3315,7 @@ msgstr "Не вдається виконати \"%s\""
 
 #: mate-panel/panel-util.c:702
 msgid "file"
-msgstr "файл"
+msgstr "ФАЙЛ"
 
 #: mate-panel/panel-util.c:870
 msgid "Home Folder"
@@ -3309,7 +3347,7 @@ msgstr "Відкрити URL посилання: %s"
 
 #: mate-panel/panel.c:670
 msgid "You dropped an image on the panel, what do you want to do?"
-msgstr "Ви помістили зображення на панель, що ви хочете зробити? "
+msgstr "Ви помістили зображення на панель, що ви хочете зробити?"
 
 #: mate-panel/panel.c:672
 #, c-format

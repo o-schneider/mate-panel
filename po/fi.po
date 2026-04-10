@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Mikko Harhanen <gitti@mikkoharhanen.fi>, 2018
-# Lasse Liehu <larso@gmx.com>, 2018
+# Lasse Liehu-Inui <larso@gmx.com>, 2018
 # Martin Wimpress <code@flexion.org>, 2018
 # Riku Viitanen <riisseli4@gmail.com>, 2018
 # Ammuu5, 2018
@@ -13,7 +13,9 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Eslam Ali <talvikahvi@gmail.com>, 2021
 # Kimmo Kujansuu <mrkujansuu@gmail.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2023
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2023
+# Tommi Nieminen <translator@legisign.org>, 2026
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -21,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Finnish (https://app.transifex.com/mate/teams/13566/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -236,6 +238,8 @@ msgid ""
 "Copyright © 1998-2004 Free Software Foundation, Inc.\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Tekijänoikeudet © 1998–2004 Free Software Foundation, Inc.\n"
+"Tekijänoikeudet © 2012–2021 MATEn kehittäjät"
 
 #: applets/clock/clock.c:3589 applets/fish/fish.c:562
 #: applets/notification_area/main.c:284 applets/wncklet/showdesktop.c:531
@@ -685,6 +689,9 @@ msgid ""
 "Copyright © 2002-2005 Vincent Untz\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Tekijänoikeudet © 1998–2002 Free Software Foundation, Inc.\n"
+"Tekijänoikeudet © 2002–2005 Vincent Untz\n"
+"Tekijänoikeudet © 2012–2021 MATEn kehittäjät"
 
 #: applets/fish/fish.c:574
 #, c-format
@@ -892,6 +899,10 @@ msgid ""
 "Copyright © 2011 Perberos\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Tekijänoikeudet © 2002 Red Hat, Inc.\n"
+"Tekijänoikeudet © 2003–2006 Vincent Untz\n"
+"Tekijänoikeudet © 2011 Perberos\n"
+"Tekijänoikeudet © 2012–2021 MATEn kehittäjät"
 
 #: applets/notification_area/main.c:482
 msgid "Panel Notification Area"
@@ -973,13 +984,14 @@ msgstr ""
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:25
 msgid "Whether to enable mouse scrolling in the switch window list"
-msgstr ""
+msgstr "Käytetään ikkunanvaihtoluettelossa hiirivieritystä"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:26
 msgid ""
 "If true, enable mouse scrolling in window list, otherwise disable mouse "
 "scrolling in window list."
 msgstr ""
+"Jos tosi, hiirivieritystä käytetään ikkunavaihtoluettelossa, muuten ei."
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:30
 msgid "Close window on middle mouse click"
@@ -1122,6 +1134,9 @@ msgid ""
 "Copyright © 2011 Perberos\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Tekijänoikeudet © 2002 Red Hat, Inc.\n"
+"Tekijänoikeudet © 2011 Perberos\n"
+"Tekijänoikeudet © 2012–2021 MATEn kehittäjät"
 
 #: applets/wncklet/showdesktop.c:571
 msgid ""
@@ -1199,11 +1214,11 @@ msgstr ""
 
 #: applets/wncklet/window-list.ui:348
 msgid "Mouse Scrolling"
-msgstr ""
+msgstr "Hiirivieritys"
 
 #: applets/wncklet/window-list.ui:369
 msgid "_Enable mouse scrolling"
-msgstr ""
+msgstr "Käytä _hiirivieritystä"
 
 #: applets/wncklet/window-list.ui:402
 msgid "Behaviour"
@@ -1257,6 +1272,11 @@ msgid ""
 "Copyright © 2011 Perberos\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Tekijänoikeudet © 2000 Helix Code, Inc.\n"
+"Tekijänoikeudet © 2001 Free Software Foundation, Inc.\n"
+"Tekijänoikeudet © 2003 Sun Microsystems, Inc.\n"
+"Tekijänoikeudet © 2011 Perberos\n"
+"Tekijänoikeudet © 2012–2021 MATEn kehittäjät"
 
 #: applets/wncklet/workspace-switcher.c:294
 #: applets/wncklet/workspace-switcher.c:1061
@@ -1605,12 +1625,16 @@ msgstr ""
 #: data/org.mate.panel.menubar.gschema.xml.in:56
 msgid "Maximum number of recent documents displayed in the Places menu"
 msgstr ""
+"Sijaintivalikossa näytettävien viimeaikaisten tiedostojen enimmäismäärä"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:57
 msgid ""
 "Maximum number of recent documents that are displayed in the Places menu at "
 "a time. If this is set to -1, all known recent documents will be displayed."
 msgstr ""
+"Sijaintivalikossa kerrallaan näytettävien viimeaikaisten tiedostojen "
+"enimmäismäärä. Jos asetetaan -1:ksi, näytetään kaikki tunnetut viimeaikaiset"
+" tiedostot."
 
 #: data/org.mate.panel.object.gschema.xml.in:5
 msgid "Panel object type"
@@ -2602,6 +2626,9 @@ msgid ""
 "Copyright © 2004 Vincent Untz\n"
 "Copyright © 2011-2021 MATE developers"
 msgstr ""
+"Tekijänoikeudet © 1997–2003 Free Software Foundation, Inc.\n"
+"Tekijänoikeudet © 2004 Vincent Untz\n"
+"Tekijänoikeudet © 2011–2021 MATEn kehittäjät"
 
 #: mate-panel/panel-context-menu.c:120
 msgid ""
@@ -2717,7 +2744,7 @@ msgstr "_Palauta levyltä"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:108
 msgid "_Ok"
-msgstr ""
+msgstr "_OK"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:163
 msgid "_Type:"

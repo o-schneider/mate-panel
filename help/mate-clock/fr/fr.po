@@ -1,23 +1,24 @@
-# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # df3de0cb43d289cd23a753345b3743cd_a20684f, 2018
 # Guillaume Fayard <guillaume2.fayard@wanadoo.fr>, 2018
 # Laurent Napias <tamplan+transifex@free.fr>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2018
 # Étienne Deparis <etienne@depar.is>, 2018
 # Firokat Informatique <jujuhangout28@gmail.com>, 2019
 # Laurent Napias, 2020
 # Jerom Turible <jeromet9208@gmail.com>, 2020
 # Tubuntu, 2020
-# Stéphane PETRUS <stephane.petrus@posteo.net>, 2021
+# Stéphane PETRUS <stephane.petrus@mailfence.com>, 2021
+# David D, 2024
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:36+0200\n"
 "PO-Revision-Date: 2018-09-28 13:34+0000\n"
-"Last-Translator: Stéphane PETRUS <stephane.petrus@posteo.net>, 2021\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: French (https://app.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,6 +105,9 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> <address> "
 "<email>pcutler@gnome.org</email> </address> </affiliation>"
 msgstr ""
+"<firstname>Paul </firstname> <surname> Cutler</surname> <affiliation> "
+"<orgname>Projet Documentation de GNOME</orgname> <address> "
+"<email>pcutler@gnome.org</email> </address> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:80
@@ -111,6 +115,9 @@ msgid ""
 "<firstname>Sun </firstname> <surname>Microsystems</surname> <affiliation> "
 "<orgname>GNOME Documentation Project</orgname> <_:address-1/> </affiliation>"
 msgstr ""
+"<firstname>Sun </firstname> <surname>Microsystems</surname> <affiliation> "
+"<orgname>Projet Documentation de GNOME</orgname> <_:address-1/> "
+"</affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:88
@@ -119,6 +126,9 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> <address> "
 "<email>d-mueth@uchicago.edu</email> </address> </affiliation>"
 msgstr ""
+"<firstname>Dan </firstname> <surname> Mueth</surname> <affiliation> "
+"<orgname>Projet Documentation de GNOME</orgname> <address> "
+"<email>d-mueth@uchicago.edu</email> </address> </affiliation>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:119
@@ -131,6 +141,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.8</revnumber> <date>July 2015</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.8</revnumber> <date>Juillet "
+"2015</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:127 C/index.docbook:135
@@ -143,6 +155,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.7;</revnumber> <date>July 2015</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.7;</revnumber> <date>Juillet "
+"2015</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:131
@@ -150,6 +164,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.6</revnumber> <date>July 2015</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.6</revnumber> <date>Juillet "
+"2015</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:143 C/index.docbook:151 C/index.docbook:159
@@ -163,6 +179,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.5</revnumber> <date>February 2004</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.5</revnumber> <date>Février "
+"2004</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:147
@@ -170,6 +188,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.4</revnumber> <date>September 2003</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.4</revnumber> <date>Septembre "
+"2003</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:155
@@ -177,6 +197,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.3</revnumber> <date>January 2003</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.3</revnumber> <date>Janvier "
+"2003</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:163
@@ -184,6 +206,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.2</revnumber> <date>August 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.2</revnumber> <date>Août "
+"2002</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:171
@@ -191,6 +215,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.1</revnumber> <date>June 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.1</revnumber> <date>Juin "
+"2002</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:179
@@ -198,6 +224,8 @@ msgid ""
 "<revnumber>Clock Applet Manual V2.0</revnumber> <date>March 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge V2.0</revnumber> <date>Mars "
+"2002</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:191
@@ -210,11 +238,13 @@ msgid ""
 "<revnumber>Clock Applet Manual</revnumber> <date>April 2000</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuel de l'applet Horloge</revnumber> <date>Avril 2000</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:197
 msgid "This manual describes version 1.10.1 of the Clock applet."
-msgstr ""
+msgstr "Ce manuel décrit la version 1.10.1 de l’applet Horloge."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:200
@@ -228,6 +258,10 @@ msgid ""
 "manual, follow the directions in the <ulink url=\"help:mate-user-"
 "guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
+"Pour signaler un bug ou faire une suggestion en rapport avec l'applet "
+"Horloge du tableau de bord ou ce manuel, suivez les instructions de <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 
 #. (itstool) path: abstract/para
 #. (itstool) path: sect1/para
@@ -237,11 +271,15 @@ msgid ""
 "when clicked, displays a calendar. The <application>Clock</application> can "
 "be customized to show seconds or a 12 or 24 hour clock."
 msgstr ""
+"L’applet <application>Horloge</application> affiche la date et l’heure, et "
+"lorsqu’on clique dessus, un calendrier s’affiche. "
+"L'<application>horloge</application> peut être personnalisée pour afficher "
+"les secondes ou une horloge de 12 ou 24 heures."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:208
 msgid "<primary>Clock</primary>"
-msgstr ""
+msgstr "<primary>Horloge</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:216
@@ -272,6 +310,9 @@ msgid ""
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows Clock "
 "applet.</phrase> </textobject>"
 msgstr ""
+"<imageobject><imagedata fileref=\"figures/clock_applet.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Affiche l'applet "
+"Horloge.</phrase> </textobject>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:240
@@ -386,12 +427,12 @@ msgstr "Sélectionnez l'une des options suivantes dans le menu contextuel :"
 #. (itstool) path: listitem/para
 #: C/index.docbook:297
 msgid "<guimenuitem>Copy Time</guimenuitem>"
-msgstr ""
+msgstr "<guimenuitem>Copier heure</guimenuitem>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:302
 msgid "<guimenuitem>Copy Date</guimenuitem>"
-msgstr ""
+msgstr "<guimenuitem>Copier date</guimenuitem>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:309
@@ -407,6 +448,9 @@ msgid ""
 "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem> "
 "</menuchoice> or middle-click to insert the item."
 msgstr ""
+"Choisissez <menuchoice><guimenu>Éditer</guimenu> "
+"<guimenuitem>Coller</guimenuitem> </menuchoice> ou cliquez avec le bouton du"
+" milieu pour insérer l’élément."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:326
@@ -436,7 +480,7 @@ msgstr "Préférences générales"
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:335
 msgid "<guilabel>Clock Format</guilabel>"
-msgstr ""
+msgstr "<guilabel>Format d'horloge</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:337
@@ -540,7 +584,7 @@ msgstr "Préférences des emplacements"
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:393
 msgid "<guilabel>Locations</guilabel>"
-msgstr ""
+msgstr "<guilabel>Emplacement</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:395
@@ -628,12 +672,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:447
 msgid "<guilabel>Beaufort scale</guilabel>"
-msgstr ""
+msgstr "<guilabel>Échelle de Beaufort</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:450
 msgid "<guilabel>Knots</guilabel>"
-msgstr ""
+msgstr "<guilabel>Noeuds</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:453
@@ -670,6 +714,8 @@ msgid ""
 "Press the <guibutton>Time Settings</guibutton> button in the Preferences "
 "dialog."
 msgstr ""
+"Appuyez sur le bouton <guibutton>Paramètres de temps</guibutton> dans la "
+"boîte de dialogue des préférences."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:480
@@ -677,6 +723,8 @@ msgid ""
 "Use the <guilabel>Date &amp; Time</guilabel> dialog to adjust the date and "
 "time."
 msgstr ""
+"Utilisez la boîte de dialogue <guilabel>Date et heure</guilabel> pour régler"
+" la date et l’heure."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
@@ -686,6 +734,10 @@ msgid ""
 " password. Enter the administration password and press the "
 "<guibutton>Authenticate</guibutton> button."
 msgstr ""
+"Appuyez sur le bouton <guibutton>Définir heure système</guibutton>, puis la "
+"boîte de dialogue <application>mate-polkit</application> vous demande le mot"
+" de passe d’administration. Entrez le mot de passe d’administration puis "
+"appuyez sur le bouton <guibutton>Authentifier</guibutton>."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9

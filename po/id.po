@@ -14,7 +14,7 @@
 # La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2023
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2023
 # Andika Triwidada <andika@gmail.com>, 2023
 # 
 msgid ""

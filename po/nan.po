@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Tan, Kian-ting, 2024
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Tan, Kian-ting, 2024\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Chinese (Min Nan) (https://app.transifex.com/mate/teams/13566/nan/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +27,7 @@ msgstr ""
 
 #: applets/clock/calendar-window.c:257
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: applets/clock/calendar-window.c:484
 msgid "Calendar"
@@ -170,14 +171,14 @@ msgstr ""
 #: mate-panel/panel-menu-button.c:699 mate-panel/panel-properties-dialog.ui:78
 #: mate-panel/panel-properties-dialog.ui:724 mate-panel/panel-run-dialog.ui:39
 msgid "_Help"
-msgstr ""
+msgstr "說明(_H)"
 
 #: applets/clock/clock.c:2017 applets/fish/fish.c:1696
 #: applets/notification_area/main.c:296 applets/wncklet/showdesktop.c:247
 #: applets/wncklet/window-list.c:567 applets/wncklet/window-menu.c:113
 #: applets/wncklet/workspace-switcher.c:484
 msgid "_About"
-msgstr ""
+msgstr "關係 (_A)"
 
 #: applets/clock/clock.c:2020
 msgid "Copy _Time"
@@ -276,7 +277,7 @@ msgstr ""
 #: mate-panel/panel-properties-dialog.ui:740
 #: mate-panel/panel-test-applets.ui:52
 msgid "_Close"
-msgstr ""
+msgstr "關掉(_C)"
 
 #: applets/clock/clock.ui:388
 msgid "Clock Format"
@@ -325,7 +326,7 @@ msgstr "加入 (_A)"
 
 #: applets/clock/clock.ui:655
 msgid "_Edit"
-msgstr ""
+msgstr "編輯(_E)"
 
 #: applets/clock/clock.ui:671
 msgid "_Remove"
@@ -333,7 +334,7 @@ msgstr "Thâi掉 (_R_"
 
 #: applets/clock/clock.ui:732
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 #: applets/clock/clock.ui:769
 msgid "_Visibility unit:"
@@ -451,7 +452,7 @@ msgstr ""
 #: applets/clock/clock-location-tile.c:596
 #, c-format
 msgid "%s, %s"
-msgstr ""
+msgstr "%s，%s"
 
 #: applets/clock/clock-location-tile.c:608
 #: applets/clock/clock-location-tile.c:617
@@ -1965,62 +1966,62 @@ msgstr ""
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:169
 msgid "File is not a valid .desktop file"
-msgstr ""
+msgstr "檔案毋是有效ê .desktop 檔案"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:194
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
-msgstr ""
+msgstr "Buē當辨別ê桌面檔案「%s」版"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:984
 #, c-format
 msgid "Starting %s"
-msgstr ""
+msgstr "啟動%s"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1126
 msgid "Application does not accept documents on command line"
-msgstr ""
+msgstr "應用程式m̄接受用命令列拍開文件。"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1194
 #, c-format
 msgid "Unrecognized launch option: %d"
-msgstr ""
+msgstr "Bē當辨別ê啟動選項：%d"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1410
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
+msgstr "Buē當kā文件ê URI傳到「Type=Link」ê桌面項目"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1431
 msgid "Not a launchable item"
-msgstr ""
+msgstr "毋是通啟動ê項目"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:234
 msgid "Disable connection to session manager"
-msgstr ""
+msgstr "關掉kàu階段管理器ê連結。"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "Specify file containing saved configuration"
-msgstr ""
+msgstr "指定包含儲存ê設定ê檔案"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "FILE"
-msgstr ""
+msgstr "檔案"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:244
 msgid "Specify session management ID"
-msgstr ""
+msgstr "指定階段管理ID"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:244
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:270
 msgid "Session management options:"
-msgstr ""
+msgstr "階段管理器ê選項："
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:271
 msgid "Show session management options"
-msgstr ""
+msgstr "顯示階段管理ê選項"
 
 #: mate-panel/libpanel-util/panel-gtk.c:139
 msgid "_Open"
@@ -2085,7 +2086,7 @@ msgstr ""
 #: mate-panel/drawer.c:552 mate-panel/launcher.c:607
 #: mate-panel/panel-action-button.c:173 mate-panel/panel-context-menu.c:248
 msgid "_Properties"
-msgstr ""
+msgstr "屬性(_P)"
 
 #: mate-panel/mate-desktop-item-edit.c:27
 msgid "Create new file in the given directory"
@@ -2236,7 +2237,7 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:378
 msgid "Locate documents and folders on this computer by name or content"
-msgstr ""
+msgstr "用名á是內容來定位tsit ê電腦ê文件kap資料giap-á"
 
 #: mate-panel/panel-action-button.c:386 mate-panel/panel-force-quit.c:251
 msgid "Force Quit"
@@ -2252,7 +2253,7 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:397
 msgid "Connect to a remote computer or shared disk"
-msgstr ""
+msgstr "連kàu遠距離ê電腦á是分享ê磁碟"
 
 #: mate-panel/panel-action-button.c:405
 msgid "Shut Down..."
@@ -2268,7 +2269,7 @@ msgstr ""
 
 #: mate-panel/panel-addto.c:127
 msgid "Create a new launcher"
-msgstr ""
+msgstr "建立新ê啟動器"
 
 #: mate-panel/panel-addto.c:138
 msgid "Application Launcher..."
@@ -2341,7 +2342,7 @@ msgstr ""
 
 #: mate-panel/panel-addto.c:1270
 msgid "_Back"
-msgstr ""
+msgstr "頂tsi̍t頁(_B)"
 
 #: mate-panel/panel-applet-frame.c:758
 #, c-format
@@ -2368,7 +2369,7 @@ msgstr ""
 
 #: mate-panel/panel-applet-frame.c:776 mate-panel/panel-applet-frame.c:781
 msgid "_Reload"
-msgstr ""
+msgstr "重頭載入(_R)"
 
 #: mate-panel/panel-applet-frame.c:947
 #, c-format
@@ -2477,7 +2478,7 @@ msgstr ""
 
 #: mate-panel/panel-ditem-editor.c:1021
 msgid "_Location:"
-msgstr ""
+msgstr "位置(_L)："
 
 #: mate-panel/panel-ditem-editor.c:1178
 msgid "The name of the launcher is not set."
@@ -2513,7 +2514,7 @@ msgstr ""
 
 #: mate-panel/panel-ditem-editor-dialog.ui:163
 msgid "_Type:"
-msgstr ""
+msgstr "類型(_T):"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:180
 msgid "_Name:"
@@ -2568,7 +2569,7 @@ msgstr ""
 
 #: mate-panel/panel-menu-items.c:464
 msgid "Bookmarks"
-msgstr ""
+msgstr "冊籤"
 
 #. Translators: %s is a URI
 #: mate-panel/panel-menu-items.c:487 mate-panel/panel.c:571
@@ -2614,11 +2615,11 @@ msgstr "開你ê個人資料giap-á"
 #: mate-panel/panel-menu-items.c:1056
 msgctxt "Desktop Folder"
 msgid "Desktop"
-msgstr ""
+msgstr "桌面"
 
 #: mate-panel/panel-menu-items.c:1057
 msgid "Open the contents of your desktop in a folder"
-msgstr ""
+msgstr "佇資料giap-á拍開lí ê桌面ê內容"
 
 #: mate-panel/panel-menu-items.c:1074
 msgid "Computer"
@@ -2639,7 +2640,7 @@ msgstr "瀏覽冊籤kap本地網路ê位置"
 
 #: mate-panel/panel-menu-items.c:1457
 msgid "Places"
-msgstr ""
+msgstr "位置"
 
 #: mate-panel/panel-menu-items.c:1485
 msgid "System"
@@ -2768,7 +2769,7 @@ msgstr ""
 
 #: mate-panel/panel-properties-dialog.ui:678
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #: mate-panel/panel-properties-dialog.ui:710
 msgid "Image Background Details"
@@ -3032,7 +3033,7 @@ msgstr "厝ê目錄"
 #. * caja
 #: mate-panel/panel-util.c:882
 msgid "File System"
-msgstr ""
+msgstr "檔案系統"
 
 #: mate-panel/panel-util.c:1045
 msgid "Search"

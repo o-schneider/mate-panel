@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Martin Wimpress <code@flexion.org>, 2018
 # worm <thewormhole@gmail.com>, 2018
+# Martin Wimpress <code@flexion.org>, 2018
 # Damir Mevkić 52K <damir.mevkic@gmail.com>, 2018
 # jetomit <timotej.lazar@araneo.si>, 2018
 # 392dbed06ed0617bcf734e5c3b88c2de_a806767 <56c3eb2cbfedb81f02a0c7d6830fdbf3_19707>, 2018
@@ -15,6 +15,8 @@
 # Damir Jerovšek <jierro@windowslive.com>, 2021
 # 5effb9c1f1a516ba70ea22c343c6bfcd_81ebc4b <de1771badf7a51fe647a673fb8e2be1c_151433>, 2021
 # Martin Srebotnjak <miles@filmsi.net>, 2022
+# Martin K, 2024
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -22,7 +24,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Martin Srebotnjak <miles@filmsi.net>, 2022\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Slovenian (https://app.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2304,7 +2306,7 @@ msgstr "_Dodaj v predalnik ..."
 #: mate-panel/drawer.c:552 mate-panel/launcher.c:607
 #: mate-panel/panel-action-button.c:173 mate-panel/panel-context-menu.c:248
 msgid "_Properties"
-msgstr "_Lasnosti"
+msgstr "_Lastnosti"
 
 #: mate-panel/mate-desktop-item-edit.c:27
 msgid "Create new file in the given directory"

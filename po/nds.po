@@ -6,7 +6,8 @@
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Benedikt Straub <benedikt-straub@web.de>, 2023
+# Benedikt Straub <benedikt-straub@web.de>, 2025
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2023\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Low German (https://app.transifex.com/mate/teams/13566/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: applets/clock/calendar-window.c:257 applets/clock/clock.ui:708
 msgid "Locations"
-msgstr "Orte"
+msgstr "Oorte"
 
 #: applets/clock/calendar-window.c:257
 msgid "Edit"
@@ -115,7 +116,7 @@ msgstr "Klicken, um Kalenner optowiesen"
 
 #: applets/clock/clock.c:1574
 msgid "Computer Clock"
-msgstr "Reknertied"
+msgstr "Reeknertied"
 
 #. Translators: This is a strftime format
 #. * string.
@@ -146,21 +147,21 @@ msgstr "%A, %B %d %Y"
 
 #: applets/clock/clock.c:1806
 msgid "Set System Time..."
-msgstr "Systemtied setten..."
+msgstr "Systeemtied setten …"
 
 #: applets/clock/clock.c:1807
 msgid "Set System Time"
-msgstr "Systemtied"
+msgstr "Systeemtied"
 
 #: applets/clock/clock.c:1821
 msgid "Failed to set the system time"
-msgstr "Künnt de Systemtied nich setten"
+msgstr "Kunn de Systeemtied nich setten"
 
 #: applets/clock/clock.c:2011 applets/fish/fish.c:1690
 #: applets/notification_area/main.c:290 applets/wncklet/window-list.c:551
 #: applets/wncklet/workspace-switcher.c:468
 msgid "_Preferences"
-msgstr "_Eegenschapten"
+msgstr "_Eegenskuppen"
 
 #: applets/clock/clock.c:2014 applets/clock/clock.ui:312
 #: applets/fish/fish.c:1693 applets/fish/fish.ui:46
@@ -174,7 +175,7 @@ msgstr "_Eegenschapten"
 #: mate-panel/panel-menu-button.c:699 mate-panel/panel-properties-dialog.ui:78
 #: mate-panel/panel-properties-dialog.ui:724 mate-panel/panel-run-dialog.ui:39
 msgid "_Help"
-msgstr "_Hölp"
+msgstr "_Hülp"
 
 #: applets/clock/clock.c:2017 applets/fish/fish.c:1696
 #: applets/notification_area/main.c:296 applets/wncklet/showdesktop.c:247
@@ -197,11 +198,11 @@ msgstr "Dag un T_iet instellen"
 
 #: applets/clock/clock.c:3099
 msgid "Choose Location"
-msgstr "Ort wählen"
+msgstr "Oort kören"
 
 #: applets/clock/clock.c:3178
 msgid "Edit Location"
-msgstr "Orte bewarken"
+msgstr "Oorte bewarken"
 
 #: applets/clock/clock.c:3304
 msgid "City Name"
@@ -229,6 +230,8 @@ msgid ""
 "Copyright © 1998-2004 Free Software Foundation, Inc.\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Copyright © 1998-2004 Free Software Foundation, Inc.\n"
+"Copyright © 2012-2021 MATE-Entwicklers"
 
 #: applets/clock/clock.c:3589 applets/fish/fish.c:562
 #: applets/notification_area/main.c:284 applets/wncklet/showdesktop.c:531
@@ -257,7 +260,7 @@ msgstr "_Avbreken"
 
 #: applets/clock/clock.ui:62
 msgid "_Set System Time"
-msgstr "_Systemtied setten"
+msgstr "_Systeemtied setten"
 
 #: applets/clock/clock.ui:198
 msgid "_Time:"
@@ -390,8 +393,8 @@ msgid ""
 "<small><i>Type a city, region, or country name and then select a match from "
 "the pop-up.</i></small>"
 msgstr ""
-"<small><i>Gev eene Stadt, region or Landnaam in und wähl denn een Rutkamen "
-"im Popup ut.</i></small>"
+"<small><i>Giff eene Stadt, Regioon of Landnaam in und köör dann een "
+"Resultaat im Vörkoom-Menü ut.</i></small>"
 
 #: applets/clock/clock.ui:1088
 msgid "_Timezone:"
@@ -403,7 +406,7 @@ msgstr "_Ortnaam:"
 
 #: applets/clock/clock.ui:1145 applets/clock/clock.ui:1159
 msgid "<i>(optional)</i>"
-msgstr "<i>(optschoonal)</i>"
+msgstr "<i>(wenn du willst)</i>"
 
 #: applets/clock/clock.ui:1202
 msgid "L_ongitude:"
@@ -415,11 +418,11 @@ msgstr "B_rede:"
 
 #: applets/clock/clock-location-tile.c:181
 msgid "Failed to set the system timezone"
-msgstr "Kunn de System-Tiedzoon nich setten"
+msgstr "Kunn de Systeem-Tiedzoon nich setten"
 
 #: applets/clock/clock-location-tile.c:227
 msgid "<small>Set...</small>"
-msgstr "<small>Setten...</small>"
+msgstr "<small>Setten …</small>"
 
 #: applets/clock/clock-location-tile.c:228
 msgid "<small>Set</small>"
@@ -532,7 +535,7 @@ msgstr ""
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:39
 msgid "Show time with seconds"
-msgstr "Tied mit Sekunnen opwiesen"
+msgstr "Tied mit Sekünnen opwiesen"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:40
 msgid "If true, display seconds in time."
@@ -548,13 +551,13 @@ msgstr "Wenn jau, wiest dat Datum in de Klock tegen de Tied."
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:49
 msgid "Show date in tooltip"
-msgstr "Dag in lütter Popup-Informatschoon opwiesen"
+msgstr "Dag im Muushülptext wiesen"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:50
 msgid "If true, show date in a tooltip when the pointer is over the clock."
 msgstr ""
-"Wenn jau, wiest dat Datum in de Hülp-Informationen, wenn de Muuswieser över "
-"de Klock staht."
+"Wenn jau, wiest dat Datum im Muushülptext, wenn de Muuswieser över de Klock "
+"staht."
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:54
 msgid "Show weather in clock"
@@ -635,7 +638,7 @@ msgstr ""
 "Wahrschau:  Deeser Befehl sücht nützelk ut.\n"
 "Deeses Programm is unnütz, alos willt du dat villicht nich doon.\n"
 "Wi raden würrelk daarvun of, %s för wat to bruken,\n"
-"dat deeses Programm »praktisk« oder nützelk maakt."
+"dat deeses Programm »praktisk« of nützelk maakt."
 
 #: applets/fish/fish.c:423
 msgid "Images"
@@ -676,6 +679,9 @@ msgid ""
 "Copyright © 2002-2005 Vincent Untz\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Copyright © 1998-2002 Free Software Foundation, Inc.\n"
+"Copyright © 2002-2005 Vincent Untz\n"
+"Copyright © 2012-2021 MATE-Entwicklers"
 
 #: applets/fish/fish.c:574
 #, c-format
@@ -704,7 +710,7 @@ msgstr ""
 
 #: applets/fish/fish.c:845
 msgid "_Speak again"
-msgstr "_Segg dat nohmal"
+msgstr "_Segg dat noch eenmaal"
 
 #: applets/fish/fish.c:926
 #, c-format
@@ -739,7 +745,7 @@ msgstr "Dat Water mutt wesselt worden"
 
 #: applets/fish/fish.c:1549
 msgid "Look at today's date!"
-msgstr "Kiek mol, wat hüüt för een Dag is!"
+msgstr "Kiek eens, wat vandag för een Dag is!"
 
 #: applets/fish/fish.c:1631
 #, c-format
@@ -760,7 +766,7 @@ msgstr "_Befehl bi'm Anklicken utföhren:"
 
 #: applets/fish/fish.ui:246
 msgid "Animation"
-msgstr "Animatschoon"
+msgstr "Animatioon"
 
 #: applets/fish/fish.ui:266 mate-panel/panel-properties-dialog.ui:482
 #: mate-panel/panel-properties-dialog.ui:635
@@ -773,7 +779,7 @@ msgstr "_Datei:"
 
 #: applets/fish/fish.ui:315
 msgid "Select an animation"
-msgstr "Eene Animatschoon wählen"
+msgstr "Eene Animatioon kören"
 
 #: applets/fish/fish.ui:346
 msgid "_Total frames in animation:"
@@ -789,7 +795,7 @@ msgstr "Billers"
 
 #: applets/fish/fish.ui:403
 msgid "seconds"
-msgstr "Sekunnen"
+msgstr "Sekünnen"
 
 #: applets/fish/fish.ui:455
 msgid "_Rotate on vertical panels"
@@ -871,7 +877,7 @@ msgstr "Waar deeser dösige Fisk her kummt"
 
 #: applets/fish/org.mate.panel.FishApplet.mate-panel-applet.desktop.in.in:11
 msgid "Display a swimming fish or another animated creature"
-msgstr "Wiest eenen Fisk bi'm Swemmen oder een anners bewegtes Deert"
+msgstr "Wiest eenen Fisk bi'm Swemmen of een anners bewegtes Deert"
 
 #: applets/notification_area/main.c:274
 #: applets/notification_area/org.mate.panel.NotificationAreaApplet.mate-panel-applet.desktop.in.in:10
@@ -889,10 +895,14 @@ msgid ""
 "Copyright © 2011 Perberos\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Copyright © 2002 Red Hat, Inc.\n"
+"Copyright © 2003-2006 Vincent Untz\n"
+"Copyright © 2011 Perberos\n"
+"Copyright © 2012-2021 MATE-Entwicklers"
 
 #: applets/notification_area/main.c:482
 msgid "Panel Notification Area"
-msgstr "Balkeninformatschoonsrebeet"
+msgstr "Balkeninformatioonsrebeet"
 
 #: applets/notification_area/notification-area-preferences-dialog.ui:46
 msgid "Notification Area Preferences"
@@ -909,7 +919,7 @@ msgstr "26"
 #: applets/notification_area/notification-area-preferences-dialog.ui:139
 #: mate-panel/panel-properties-dialog.ui:221
 msgid "pixels"
-msgstr "Pixels"
+msgstr "Billpunkten"
 
 #: applets/notification_area/org.mate.panel.applet.notification-area.gschema.xml.in:5
 msgid "Minimum icon size"
@@ -968,23 +978,27 @@ msgstr "Wenn jau"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:25
 msgid "Whether to enable mouse scrolling in the switch window list"
-msgstr ""
+msgstr "Of Muus-Rollen in de Fenster-Wesseln-List anknipst is"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:26
 msgid ""
 "If true, enable mouse scrolling in window list, otherwise disable mouse "
 "scrolling in window list."
 msgstr ""
+"Wenn jau, word Muus-Rollen in de Fensterlist anknipst, anners word Muus-"
+"Rollen in de Fensterlist utknipst."
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:30
 msgid "Close window on middle mouse click"
-msgstr ""
+msgstr "Fensters mit eenem Klick mit de middelste Muustast sluten"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:31
 msgid ""
 "If true, then clicking the middle mouse button over a taskbar item will "
 "close the window."
 msgstr ""
+"Wenn jau, dann word een Fenster sluten, wenn de middelste Muustast över "
+"sienem Balken-Indrag klickt word."
 
 #: applets/wncklet/org.mate.panel.applet.workspace-switcher.gschema.xml.in:5
 msgid "Display workspace names"
@@ -1022,7 +1036,7 @@ msgid ""
 "vertical layout) the workspace switcher shows the workspaces in. This key is"
 " only relevant if the display_all_workspaces key is true."
 msgstr ""
-"Deeser Slötel gifft an, in wo völen Riegen (bi horizontalem Utsehn) oder "
+"Deeser Slötel gifft an, in wo völen Riegen (bi horizontalem Utsehn) of "
 "Striepen (bi vertikalem Utsehn) de Schrievdisk-Wessler de Schrievdisken "
 "wiest. Deeser Slötel gellt blot dann, wenn de Slötel "
 "»display_all_workspaces« up jau staht."
@@ -1050,7 +1064,7 @@ msgstr "Fabrik för Programme för de Fenster-Navigatioon"
 #: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:10
 #: applets/wncklet/window-menu.c:83 applets/wncklet/window-menu.c:235
 msgid "Window Selector"
-msgstr "Finsterwähler"
+msgstr "Finsterköörer"
 
 #: applets/wncklet/org.mate.panel.Wncklet.mate-panel-applet.desktop.in.in:11
 msgid "Switch between open windows using a menu"
@@ -1119,14 +1133,17 @@ msgid ""
 "Copyright © 2011 Perberos\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Copyright © 2002 Red Hat, Inc.\n"
+"Copyright © 2011 Perberos\n"
+"Copyright © 2012-2021 MATE-Entwicklers"
 
 #: applets/wncklet/showdesktop.c:571
 msgid ""
 "Your window manager does not support the show desktop button, or you are not"
 " running a window manager."
 msgstr ""
-"Dien Fenster-Uppasser stütt de »Schrievdisk wiesen«-Knoop nich, oder 't "
-"löppt keen Fenster-Uppasser."
+"Dien Fenster-Uppasser stütt de »Schrievdisk wiesen«-Knoop nich, of 't löppt "
+"keen Fenster-Uppasser."
 
 #: applets/wncklet/window-list.c:543
 msgid "_System Monitor"
@@ -1159,8 +1176,8 @@ msgstr "Utblickbillers bi'm _Wiesen wiesen"
 #: applets/wncklet/window-list.ui:140
 msgid "Thumbnail width in pixels. Window aspect ratio will be maintained."
 msgstr ""
-"Utblickbiller-Breddt in Pixeln. Dat Finster-Sietengröttverhältnis blievt "
-"gliek."
+"Utblickbiller-Breddt in Billpunkten. Dat Finster-Sietengröttverhältnis "
+"blievt gliek."
 
 #: applets/wncklet/window-list.ui:141
 msgid "Thumbnail width:"
@@ -1168,7 +1185,7 @@ msgstr "Utblickbiller-Breddt:"
 
 #: applets/wncklet/window-list.ui:154
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: applets/wncklet/window-list.ui:156
 msgid "px"
@@ -1188,27 +1205,27 @@ msgstr "Finsters grupperen, wenn de _Rüümte knapp word"
 
 #: applets/wncklet/window-list.ui:252
 msgid "_Always group windows"
-msgstr "_Finsters jümmers grupperen"
+msgstr "_Finsters alltieden grupperen"
 
 #: applets/wncklet/window-list.ui:290
 msgid "Middle mouse button"
-msgstr ""
+msgstr "Middelste Muustast"
 
 #: applets/wncklet/window-list.ui:311
 msgid "_Click to close window"
-msgstr ""
+msgstr "_Klick um Fenster to sluten"
 
 #: applets/wncklet/window-list.ui:348
 msgid "Mouse Scrolling"
-msgstr ""
+msgstr "Muus-Rollen"
 
 #: applets/wncklet/window-list.ui:369
 msgid "_Enable mouse scrolling"
-msgstr ""
+msgstr "_Muus-Rollen anknipsen"
 
 #: applets/wncklet/window-list.ui:402
 msgid "Behaviour"
-msgstr ""
+msgstr "Verhollen"
 
 #: applets/wncklet/window-list.ui:425
 msgid "Window List Content"
@@ -1259,6 +1276,11 @@ msgid ""
 "Copyright © 2011 Perberos\n"
 "Copyright © 2012-2021 MATE developers"
 msgstr ""
+"Copyright © 2000 Helix Code, Inc.\n"
+"Copyright © 2001 Free Software Foundation, Inc.\n"
+"Copyright © 2003 Sun Microsysteems, Inc.\n"
+"Copyright © 2011 Perberos\n"
+"Copyright © 2012-2021 MATE-Entwicklers"
 
 #: applets/wncklet/workspace-switcher.c:294
 #: applets/wncklet/workspace-switcher.c:1061
@@ -1297,7 +1319,7 @@ msgstr "_All Schrievdisken wiesen, in:"
 
 #: applets/wncklet/workspace-switcher.ui:204
 msgid "Switcher"
-msgstr "Wähler"
+msgstr "Köörer"
 
 #: applets/wncklet/workspace-switcher.ui:245
 msgid "Number of _workspaces:"
@@ -1326,12 +1348,12 @@ msgstr "Normaales Balken-Utsehn"
 #: data/org.mate.panel.gschema.xml.in:6
 msgid "The default panels layout to use when panels are created or resetted."
 msgstr ""
-"Dat Utsehn, dat Balken hebben sallen, wenn se neei maakt oder torüggsett "
+"Dat Utsehn, dat Balken hebben sallen, wenn se neei maakt of torüggsett "
 "worden."
 
 #: data/org.mate.panel.gschema.xml.in:10
 msgid "Enable program list in \"Run Application\" dialog"
-msgstr "List vun Programmen im »Starte Programm...«-Dialog wiesen"
+msgstr "List vun Programmen im »Starte Programm …«-Dialog wiesen"
 
 #: data/org.mate.panel.gschema.xml.in:11
 msgid ""
@@ -1426,16 +1448,16 @@ msgstr ""
 
 #: data/org.mate.panel.gschema.xml.in:50
 msgid "Enable tooltips"
-msgstr "Lütte Hölpinformatschoonen aktiveren"
+msgstr "Muushülptexten anknipsen"
 
 #: data/org.mate.panel.gschema.xml.in:51
 msgid "If true, tooltips are shown for objects in panels."
-msgstr "Wenn jau, worden Hülp-Informationen för Dingen in Balken wiesen."
+msgstr "Wenn jau, worden Muushülptexten för Dingen in Balken wiesen."
 
 #: data/org.mate.panel.gschema.xml.in:55
 #: data/org.mate.panel.toplevel.gschema.xml.in:70
 msgid "Enable animations"
-msgstr "Animatschoonen aktiveren"
+msgstr "Animatioonen anknipsen"
 
 #: data/org.mate.panel.gschema.xml.in:59
 msgid "Autoclose drawer"
@@ -1503,11 +1525,11 @@ msgstr ""
 
 #: data/org.mate.panel.gschema.xml.in:89
 msgid "Enable SNI support"
-msgstr ""
+msgstr "SNI-Unnerstütten anknipsen"
 
 #: data/org.mate.panel.gschema.xml.in:90
 msgid "If true, the panel provides support for SNI."
-msgstr ""
+msgstr "Wenn jau, unnerstütt de Balken SNI."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:15
 msgid "Show applications menu"
@@ -1515,7 +1537,7 @@ msgstr "Programm-Menü wiesen"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:16
 msgid "If true, show applications item in menu bar."
-msgstr ""
+msgstr "Wenn jau, wies Anwennens-Ding in de Menübalken."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:20
 msgid "Show places menu"
@@ -1523,7 +1545,7 @@ msgstr "Oorten-Menü wiesen"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:21
 msgid "If true, show places item in menu bar."
-msgstr ""
+msgstr "Wenn jau, wies Steden-Ding in de Menübalken."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:25
 msgid "Show desktop menu"
@@ -1531,7 +1553,7 @@ msgstr "Schrievdisk-Menü wiesen"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:26
 msgid "If true, show desktop item in menu bar."
-msgstr ""
+msgstr "Wenn jau, wies Schrievdisk-Ding in de Menübalken."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:30
 msgid "Show icon"
@@ -1539,7 +1561,7 @@ msgstr "Teken wiesen"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:31
 msgid "If true, show icon in menu bar."
-msgstr ""
+msgstr "Wenn jau, wies Teken in de Menübalken."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:35
 msgid "Icon to show in menu bar"
@@ -1547,7 +1569,7 @@ msgstr "Teken tum im Menübalken Wiesen"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:36
 msgid "Set the theme icon name to use in menu bar."
-msgstr ""
+msgstr "Sett de Tekens-Thema-Naam, wat in de Menübalken bruukt worden sall."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:40
 msgid "Menu bar icon size"
@@ -1558,6 +1580,8 @@ msgid ""
 "Set the size of an icon used in menu bar. The panel must be restarted for "
 "this to take effect."
 msgstr ""
+"Sett de Grött vun eenem Teken, wat in de Menübalken bruukt word. Dat word "
+"eerst dann aktiv, wenn de Balken neei start word."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:45
 msgid "Menu items icon size"
@@ -1568,6 +1592,8 @@ msgid ""
 "Set the size of icons used in the menu. The panel must be restarted for this"
 " to take effect."
 msgstr ""
+"Sett de Grött vun de Tekens, wat in de Menü bruukt worden. Dat word eerst "
+"dann aktiv, wenn de Balken neei start word."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:50
 msgid "Threshold of menu items before submenu is created"
@@ -1578,16 +1604,22 @@ msgid ""
 "Maximum number of menu items (i.e. bookmarks) that are displayed without "
 "being put in a submenu."
 msgstr ""
+"Hoogste Tahl vun Menü-Indragen (to’n Bispööl Leestekens), wat wiest worden, "
+"sünner in een Unnermenü packt to worden."
 
 #: data/org.mate.panel.menubar.gschema.xml.in:56
 msgid "Maximum number of recent documents displayed in the Places menu"
 msgstr ""
+"Hoogste Tahl vun lesten Dokumenten, wat in de Steden-Menü wiest worden"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:57
 msgid ""
 "Maximum number of recent documents that are displayed in the Places menu at "
 "a time. If this is set to -1, all known recent documents will be displayed."
 msgstr ""
+"Hoogste Tahl vun lesten Dokumenten, wat up een Maal in de Steden-Menü wiest "
+"worden. Wenn dat up -1 sett word, worden all bekannten lesten Dokumenten "
+"wiest."
 
 #: data/org.mate.panel.object.gschema.xml.in:5
 msgid "Panel object type"
@@ -1599,25 +1631,27 @@ msgstr "De Aard vun deesem Balken."
 
 #: data/org.mate.panel.object.gschema.xml.in:10
 msgid "Toplevel panel containing object"
-msgstr ""
+msgstr "Boverst Balken wat dat enthollt"
 
 #: data/org.mate.panel.object.gschema.xml.in:11
 msgid "The identifier of the toplevel panel which contains this object."
-msgstr ""
+msgstr "Dat Kennteken vun de boverst Balken, wat deeses Ding enthollt."
 
 #: data/org.mate.panel.object.gschema.xml.in:15
 msgid "Object's position on the panel"
-msgstr ""
+msgstr "Ding-Stee im Balken"
 
 #: data/org.mate.panel.object.gschema.xml.in:16
 msgid ""
 "The position of this panel object. The position is specified by the number "
 "of pixels from the left (or top if vertical) panel edge."
 msgstr ""
+"De Stee vun deesem Balken-Ding. De Stee word as de Tahl vun Billpunkten vum "
+"linken (of bovern wenn vertikaal) Rann vum Balken angeven."
 
 #: data/org.mate.panel.object.gschema.xml.in:20
 msgid "Interpret position relative to bottom/right edge (DEPRECATED)"
-msgstr ""
+msgstr "Stee as Ofstand vum unnern/rechten Rann verstahn (NICH MEHR BRUKEN)"
 
 #: data/org.mate.panel.object.gschema.xml.in:21
 msgid ""
@@ -1626,12 +1660,18 @@ msgid ""
 "backward compatibility with old panel layouts; please set the \"relative-to-"
 "edge\" property instead."
 msgstr ""
+"Wenn jau, word de Stee vum Ding as Ofstand vum rechten (of unnern wenn "
+"vertikaal) Rann vum Balken verstahn. Deeser Slötel word blots för "
+"Verdragelkheid mit ollen Balken-Utsehns geven; bidde sett in Stee daarvun de"
+" Eegenskupp »relative-to-edge«."
 
 #: data/org.mate.panel.object.gschema.xml.in:25
 msgid ""
 "Whether to interpret the value of the \"position\" key relative to the "
 "start, center or end of the panel"
 msgstr ""
+"Of de Weert vun de Slötel »position« as de Ofstand vun de Anfang, Midde of "
+"Enn vun de Balken verstahn worden sall."
 
 #: data/org.mate.panel.object.gschema.xml.in:26
 msgid ""
@@ -1640,6 +1680,11 @@ msgid ""
 "to the start (left/top edge), center, or end (right/bottom edge) of the "
 "panel. Valid values for this key are 'start', 'center', and 'end'."
 msgstr ""
+"De Stee vun de Ding word as de Ofstand to eenem Rann vun de Balken verstahn."
+" De Weert vun deesem Slötel leggt fast, of dat Ding vun de Anfang "
+"(linker/boverer Rann), Midde of Enn (rechter/unnerer Rann) vun de Balken ut "
+"sett word. Gültige Weerten för deesen Slötel sünd »start«, »center« un "
+"»end«."
 
 #: data/org.mate.panel.object.gschema.xml.in:30
 msgid "Lock the object to the panel"
@@ -1650,6 +1695,8 @@ msgid ""
 "If true, the user may not move the applet without first unlocking the object"
 " using the \"Unlock\" menuitem."
 msgstr ""
+"Wenn jau, düür de Bruker de Anwennen nich verschuven, sünner dat Ding eerst "
+"över de »Upsluten«-Menüindrag uptosluten."
 
 #: data/org.mate.panel.object.gschema.xml.in:35
 msgid "Applet IID"
@@ -1674,13 +1721,16 @@ msgstr ""
 
 #: data/org.mate.panel.object.gschema.xml.in:45
 msgid "Tooltip displayed for drawer or menu"
-msgstr ""
+msgstr "Muushülptext för Schuuvlaad of Menü"
 
 #: data/org.mate.panel.object.gschema.xml.in:46
 msgid ""
 "The text to display in a tooltip for this drawer or this menu. This key is "
 "only relevant if the object-type key is 'drawer' or 'menu'."
 msgstr ""
+"De Text, wat as een Muushülptext för deese Schuuvlaad of deeses Menü wiest "
+"worden sall. Deeser Slötel word blots dann bruukt, wenn de Ding-Aard-Slötel "
+"»drawer« of »menu« is."
 
 #: data/org.mate.panel.object.gschema.xml.in:50
 msgid "Use custom icon for object's button"
@@ -1801,7 +1851,7 @@ msgstr ""
 
 #: data/org.mate.panel.toplevel.gschema.xml.in:25
 msgid "Panel orientation"
-msgstr "Balkenpositschoon"
+msgstr "Balken-Urichten"
 
 #: data/org.mate.panel.toplevel.gschema.xml.in:26
 msgid ""
@@ -2061,7 +2111,7 @@ msgstr "Datei is keene valide .desktop Datei"
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:194
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
-msgstr "Dateiverschoon '%s' vu'm Schrievdisk nich erkannt"
+msgstr "Schrievdisk-Datei-Versioon »%s« nich erkannt"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:984
 #, c-format
@@ -2070,7 +2120,7 @@ msgstr "Starte %s"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1126
 msgid "Application does not accept documents on command line"
-msgstr ""
+msgstr "Anwennen nimmt keene Dokumenten up de Oorderrieg an"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1194
 #, c-format
@@ -2080,6 +2130,8 @@ msgstr "Unbekannte Startoption: %d"
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1410
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr ""
+"Kann Dokument-URIs nich an eenen Schrievdisk-Indrag vun de Aard »Type=Link« "
+"geven"
 
 #: mate-panel/mate-submodules/libegg/eggdesktopfile.c:1431
 msgid "Not a launchable item"
@@ -2087,7 +2139,7 @@ msgstr "Keen startbares Element"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:234
 msgid "Disable connection to session manager"
-msgstr "Deaktivert de Verbinnen to'm Törnoppasser"
+msgstr "Deaktiveert de Verbinnen to'm Törnoppasser"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "Specify file containing saved configuration"
@@ -2095,7 +2147,7 @@ msgstr "Datei mit sekert Konfiguratioon angeven"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "FILE"
-msgstr "FILE"
+msgstr "DATEI"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:244
 msgid "Specify session management ID"
@@ -2107,11 +2159,11 @@ msgstr "ID"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:270
 msgid "Session management options:"
-msgstr "Törnoppassensoptschoonen:"
+msgstr "Törnoppassens-Instellens:"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:271
 msgid "Show session management options"
-msgstr "Törnoppassensoptschoonen opwiesen"
+msgstr "Törnoppassens-Instellens opwiesen"
 
 #: mate-panel/libpanel-util/panel-gtk.c:139
 msgid "_Open"
@@ -2129,16 +2181,16 @@ msgstr ""
 #: mate-panel/libpanel-util/panel-launch.c:46
 #, c-format
 msgid "Could not launch '%s'"
-msgstr "Künn '%s' nich starten"
+msgstr "Kunn '%s' nich starten"
 
 #: mate-panel/libpanel-util/panel-launch.c:49 mate-panel/launcher.c:163
 msgid "Could not launch application"
-msgstr "Künn Programm nich starten"
+msgstr "Kunn Programm nich starten"
 
 #: mate-panel/libpanel-util/panel-show.c:45
 #, c-format
 msgid "Could not open location '%s'"
-msgstr "Künn Ort '%s' nich opmaken"
+msgstr "Kunn Oort '%s' nich opmaken"
 
 #: mate-panel/libpanel-util/panel-show.c:159
 msgid "No application to handle search folders is installed."
@@ -2176,7 +2228,7 @@ msgstr ""
 #: mate-panel/drawer.c:552 mate-panel/launcher.c:607
 #: mate-panel/panel-action-button.c:173 mate-panel/panel-context-menu.c:248
 msgid "_Properties"
-msgstr "_Eegenschapten"
+msgstr "_Eegenskuppen"
 
 #: mate-panel/mate-desktop-item-edit.c:27
 msgid "Create new file in the given directory"
@@ -2184,7 +2236,7 @@ msgstr ""
 
 #: mate-panel/mate-desktop-item-edit.c:28
 msgid "[FILE...]"
-msgstr "[FILE...]"
+msgstr "[DATEI …]"
 
 #: mate-panel/mate-desktop-item-edit.c:106
 msgid "- Edit .desktop files"
@@ -2220,7 +2272,7 @@ msgstr ""
 
 #: mate-panel/launcher.c:122
 msgid "No URL was specified."
-msgstr "Keen URL wählt."
+msgstr "Keen URL utköört."
 
 #: mate-panel/launcher.c:218
 msgid "Could not use dropped item"
@@ -2247,7 +2299,7 @@ msgstr ""
 #: mate-panel/launcher.c:1072 mate-panel/panel-ditem-editor.c:1177
 #: mate-panel/panel-ditem-editor.c:1211 mate-panel/panel-ditem-editor.c:1241
 msgid "Could not save launcher"
-msgstr "Künn Starter nich spiekern"
+msgstr "Kunn Starter nich spiekern"
 
 #: mate-panel/main.c:55
 msgid "Replace a currently running panel"
@@ -2267,11 +2319,11 @@ msgstr ""
 
 #: mate-panel/menu.c:500
 msgid "Add this launcher to _panel"
-msgstr "Düssen Starter to'm _Balken hentofögen"
+msgstr "Deesen Starter to'm _Balken hentofögen"
 
 #: mate-panel/menu.c:507
 msgid "Add this launcher to _desktop"
-msgstr "Düssen Starter to'm _Schrievdisk hentofögen"
+msgstr "Deesen Starter to'm _Schrievdisk hentofögen"
 
 #: mate-panel/menu.c:518
 msgid "_Entire menu"
@@ -2283,11 +2335,11 @@ msgstr ""
 
 #: mate-panel/menu.c:530
 msgid "Add this as _menu to panel"
-msgstr "Düsses Tügg as _Menü to'm Balken hentofögen"
+msgstr "Deeses Ding as _Menü to'm Balken hentofögen"
 
 #: mate-panel/panel-action-button.c:161
 msgid "_Activate Screensaver"
-msgstr "_Billschirmschoner aktiveren"
+msgstr "_Billschirmschoner anknipsen"
 
 #: mate-panel/panel-action-button.c:167
 msgid "_Lock Screen"
@@ -2295,7 +2347,7 @@ msgstr "_Billschirm avsluten"
 
 #: mate-panel/panel-action-button.c:311
 msgid "Could not connect to server"
-msgstr "Künn nich mit Server verbinnen"
+msgstr "Kunn nich mit Server verbinnen"
 
 #: mate-panel/panel-action-button.c:342
 msgid "Lock Screen"
@@ -2307,7 +2359,7 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:357
 msgid "Log Out..."
-msgstr "Avmellen..."
+msgstr "Avmellen …"
 
 #: mate-panel/panel-action-button.c:358
 msgid "Log out of this session to log in as a different user"
@@ -2315,7 +2367,7 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:367
 msgid "Run Application..."
-msgstr "Starte Programm..."
+msgstr "Starte Programm …"
 
 #: mate-panel/panel-action-button.c:368
 msgid "Run an application by typing a command or choosing from a list"
@@ -2323,7 +2375,7 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:377
 msgid "Search for Files..."
-msgstr "Nah Dateien söken..."
+msgstr "Nah Dateien söken …"
 
 #: mate-panel/panel-action-button.c:378
 msgid "Locate documents and folders on this computer by name or content"
@@ -2339,7 +2391,7 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:396
 msgid "Connect to Server..."
-msgstr "Mit Server verbinnen..."
+msgstr "Mit Server verbinnen …"
 
 #: mate-panel/panel-action-button.c:397
 msgid "Connect to a remote computer or shared disk"
@@ -2347,15 +2399,15 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:405
 msgid "Shut Down..."
-msgstr "Daalfahren..."
+msgstr "Daalfahren …"
 
 #: mate-panel/panel-action-button.c:406
 msgid "Shut down the computer"
-msgstr "Rekner daalfahren"
+msgstr "Reekner daalfahren"
 
 #: mate-panel/panel-addto.c:126
 msgid "Custom Application Launcher"
-msgstr "Eegen Programmstarter..."
+msgstr "Eegen Programmstarter …"
 
 #: mate-panel/panel-addto.c:127
 msgid "Create a new launcher"
@@ -2363,7 +2415,7 @@ msgstr "Eenen nejen Starter erstellen"
 
 #: mate-panel/panel-addto.c:138
 msgid "Application Launcher..."
-msgstr "Programmstarter..."
+msgstr "Programmstarter …"
 
 #: mate-panel/panel-addto.c:139
 msgid "Copy a launcher from the applications menu"
@@ -2455,11 +2507,11 @@ msgstr ""
 
 #: mate-panel/panel-applet-frame.c:775 mate-panel/panel-applet-frame.c:780
 msgid "_Don't Reload"
-msgstr "_Nich opfrischen"
+msgstr "_Nich vernejen"
 
 #: mate-panel/panel-applet-frame.c:776 mate-panel/panel-applet-frame.c:781
 msgid "_Reload"
-msgstr "_Opfrischen"
+msgstr "_Vernejen"
 
 #: mate-panel/panel-applet-frame.c:947
 #, c-format
@@ -2501,7 +2553,7 @@ msgstr "Över de MATE Balken"
 
 #: mate-panel/panel-context-menu.c:155
 msgid "Cannot delete this panel"
-msgstr "Künn düssen Balken nich löschen"
+msgstr "Kunn deesen Balken nich löschen"
 
 #: mate-panel/panel-context-menu.c:156
 msgid "You must always have at least one panel."
@@ -2531,7 +2583,7 @@ msgstr ""
 
 #: mate-panel/panel-context-menu.c:265
 msgid "_Delete This Panel"
-msgstr "_Düssen Balken löschen"
+msgstr "_Deesen Balken löschen"
 
 #: mate-panel/panel-context-menu.c:278
 msgid "_New Panel"
@@ -2551,15 +2603,15 @@ msgstr "Programm im Terminal"
 
 #: mate-panel/panel-ditem-editor.c:121
 msgid "Location"
-msgstr "Ort"
+msgstr "Oort"
 
 #: mate-panel/panel-ditem-editor.c:847
 msgid "Choose an application..."
-msgstr "Programm utwählen..."
+msgstr "Programm utkören …"
 
 #: mate-panel/panel-ditem-editor.c:851
 msgid "Choose a file..."
-msgstr "Datei utwählen..."
+msgstr "Datei utkören …"
 
 #: mate-panel/panel-ditem-editor.c:1003 mate-panel/panel-ditem-editor.c:1012
 #: mate-panel/panel-ditem-editor-dialog.ui:197
@@ -2588,7 +2640,7 @@ msgstr ""
 
 #: mate-panel/panel-ditem-editor.c:1202
 msgid "The location of the launcher is not set."
-msgstr "De Ort vu'm Starter is nich set."
+msgstr "De Oort vu'm Starter is nich set."
 
 #: mate-panel/panel-ditem-editor.c:1278
 msgid "Could not display help document"
@@ -2616,7 +2668,7 @@ msgstr "K_ommentar:"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:269
 msgid "_Browse..."
-msgstr "_Nahkieken..."
+msgstr "_Nahkieken …"
 
 #: mate-panel/panel-force-quit.c:87
 msgid ""
@@ -2625,7 +2677,7 @@ msgstr ""
 
 #: mate-panel/panel-force-quit.c:233
 msgid "Force this application to exit?"
-msgstr "Ertwingen, düsses Programm to sluten?"
+msgstr "Ertwingen, deeses Programm to sluten?"
 
 #: mate-panel/panel-force-quit.c:236
 msgid ""
@@ -2675,7 +2727,7 @@ msgstr ""
 #: mate-panel/panel-menu-items.c:602
 #, c-format
 msgid "Rescan %s"
-msgstr "Nohmal döörsöken %s"
+msgstr "Noch eenmaal döörsöken %s"
 
 #: mate-panel/panel-menu-items.c:640
 #, c-format
@@ -2693,7 +2745,7 @@ msgstr ""
 
 #: mate-panel/panel-menu-items.c:998
 msgid "Network Places"
-msgstr "Netwark Orte"
+msgstr "Nettwark Oorte"
 
 #: mate-panel/panel-menu-items.c:1037
 msgid "Open your personal folder"
@@ -2705,7 +2757,7 @@ msgstr "Hemverteeknis opmaken"
 #: mate-panel/panel-menu-items.c:1056
 msgctxt "Desktop Folder"
 msgid "Desktop"
-msgstr "Schreibtisch"
+msgstr "Schrievdisk"
 
 #: mate-panel/panel-menu-items.c:1057
 msgid "Open the contents of your desktop in a folder"
@@ -2732,11 +2784,11 @@ msgstr "In Lesetekens un lokalen Nettwark-Steden stövern"
 
 #: mate-panel/panel-menu-items.c:1457
 msgid "Places"
-msgstr "Orte"
+msgstr "Oorte"
 
 #: mate-panel/panel-menu-items.c:1485
 msgid "System"
-msgstr "System"
+msgstr "Systeem"
 
 #. Translators: translate "1" (msgctxt: "panel:showusername") to anything
 #. * but "1" if "Log Out %s" doesn't make any sense in your
@@ -2751,14 +2803,14 @@ msgstr "1"
 #: mate-panel/panel-menu-items.c:1582
 #, c-format
 msgid "Log Out %s..."
-msgstr "%s avmellen..."
+msgstr "%s avmellen …"
 
 #. Translators: this string is used ONLY if you translated
 #. * "1" (msgctxt: "panel:showusername") to "1"
 #: mate-panel/panel-menu-items.c:1586
 #, c-format
 msgid "Log out %s of this session to log in as a different user"
-msgstr "%s vun düssem Törn avmellen un as nejer Bruker anmellen"
+msgstr "%s vun deesem Törn avmellen un as nejer Bruker anmellen"
 
 #: mate-panel/panel-properties-dialog.c:120 mate-panel/panel-test-applets.c:59
 msgctxt "Orientation"
@@ -2800,7 +2852,7 @@ msgstr "_Bill:"
 #: mate-panel/panel-properties-dialog.ui:249
 #: mate-panel/panel-test-applets.ui:116
 msgid "_Orientation:"
-msgstr "_Positschoon:"
+msgstr "_Utrichten:"
 
 #: mate-panel/panel-properties-dialog.ui:263
 #: mate-panel/panel-test-applets.ui:86
@@ -2857,7 +2909,7 @@ msgstr "Achtergrundb_ill:"
 
 #: mate-panel/panel-properties-dialog.ui:647
 msgid "Select background"
-msgstr "Achtergrund wählen"
+msgstr "Achtergrund kören"
 
 #: mate-panel/panel-properties-dialog.ui:678
 msgid "Background"
@@ -2865,7 +2917,7 @@ msgstr "Achtergrund"
 
 #: mate-panel/panel-properties-dialog.ui:710
 msgid "Image Background Details"
-msgstr "Achtergrundbillinformatschoonen"
+msgstr "Achtergrundbillinformatioonen"
 
 #: mate-panel/panel-properties-dialog.ui:780
 msgid "_Tile"
@@ -2980,7 +3032,7 @@ msgstr ""
 
 #: mate-panel/panel-run-dialog.ui:190
 msgid "Run with _file..."
-msgstr "Starten _mit Datei..."
+msgstr "Starten _mit Datei …"
 
 #: mate-panel/panel-run-dialog.ui:197
 msgid ""
@@ -3111,7 +3163,7 @@ msgstr "Symbol '%s' nich funnen"
 #: mate-panel/panel-util.c:475
 #, c-format
 msgid "Could not execute '%s'"
-msgstr ""
+msgstr "Kunn »%s« nich utföhren"
 
 #: mate-panel/panel-util.c:702
 msgid "file"
@@ -3125,11 +3177,11 @@ msgstr "Hemverteeknis"
 #. * caja
 #: mate-panel/panel-util.c:882
 msgid "File System"
-msgstr "Dateisystem"
+msgstr "Dateisysteem"
 
 #: mate-panel/panel-util.c:1045
 msgid "Search"
-msgstr "Sök"
+msgstr "Söök"
 
 #. Translators: the first string is the name of a gvfs
 #. * method, and the second string is a path. For
@@ -3147,62 +3199,68 @@ msgstr "URL opmaken: %s"
 
 #: mate-panel/panel.c:670
 msgid "You dropped an image on the panel, what do you want to do?"
-msgstr ""
+msgstr "Du hest een Bill up de Balken fallen laten, wat willst du doon?"
 
 #: mate-panel/panel.c:672
 #, c-format
 msgid "You dropped the image \"%s\" on the panel."
-msgstr ""
+msgstr "Du hest dat Bill »%s« up de Balken fallen laten."
 
 #: mate-panel/panel.c:675
 msgid ""
 "Do you want to create a launcher for it or use it as the panel's background?"
 msgstr ""
+"Willst du eenen Utföhrer daarför maken of dat as de Balken-Achtergrund "
+"bruken?"
 
 #: mate-panel/panel.c:678
 msgid "Do you want to use it as the panel's background?"
-msgstr ""
+msgstr "Willst du dat as de Balken-Achtergrund bruken?"
 
 #: mate-panel/panel.c:692
 msgid "Create _Launcher"
-msgstr ""
+msgstr "_Utföhrer maken"
 
 #: mate-panel/panel.c:696
 msgid "Set _Background Image"
-msgstr ""
+msgstr "As _Achtergrund-Bill setten"
 
 #: mate-panel/panel.c:1471
 msgid "Delete this drawer?"
-msgstr ""
+msgstr "Deese Schuuvlaad lösken?"
 
 #: mate-panel/panel.c:1472
 msgid ""
 "When a drawer is deleted, the drawer and its\n"
 "settings are lost."
 msgstr ""
+"Wenn eene Schuuvlaad lösket word, gahn\n"
+"de Schuuvlaad un hör Instellens verloren."
 
 #: mate-panel/panel.c:1475
 msgid "Delete this panel?"
-msgstr "Düssen Balken löschen?"
+msgstr "Deesen Balken löschen?"
 
 #: mate-panel/panel.c:1476
 msgid ""
 "When a panel is deleted, the panel and its\n"
 "settings are lost."
 msgstr ""
+"Wenn een Balken lösket word, gahn\n"
+"de Balken un siene Instellens verloren."
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:5
 msgid "Test DBus Applet Factory"
-msgstr ""
+msgstr "Test-DBus-Anwennens-Fabrik"
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:6
 msgid "Factory for Test DBus Applet"
-msgstr ""
+msgstr "Fabrik för dat Test-DBus-Programm"
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:9
 msgid "Test DBus Applet"
-msgstr ""
+msgstr "Test-DBus-Anwennen"
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:10
 msgid "A simple applet for testing the MATE panel"
-msgstr ""
+msgstr "Een slichtes Anwennen, um de MATE-Balken to testen"

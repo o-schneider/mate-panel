@@ -18,7 +18,8 @@
 # 1e6459e9b1241af8afa03d508d281c17_dbe0d8b, 2021
 # Roman Horník <roman.hornik@debian-linux.cz>, 2021
 # Lukáš Lommer <drom@kdyne.net>, 2021
-# ToMáš Marný, 2023
+# ToMáš Marný, 2024
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -26,7 +27,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: ToMáš Marný, 2023\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Czech (https://app.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1010,13 +1011,15 @@ msgstr ""
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:30
 msgid "Close window on middle mouse click"
-msgstr ""
+msgstr "Zavřít okno kliknutím prostředním tlačítkem myši"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:31
 msgid ""
 "If true, then clicking the middle mouse button over a taskbar item will "
 "close the window."
 msgstr ""
+"Pokud je povoleno, kliknutím prostředním tlačítkem myši nad položkou na "
+"hlavním panelu se okno zavře."
 
 #: applets/wncklet/org.mate.panel.applet.workspace-switcher.gschema.xml.in:5
 msgid "Display workspace names"
@@ -1228,7 +1231,7 @@ msgstr "Prostřední tlačítko myši"
 
 #: applets/wncklet/window-list.ui:311
 msgid "_Click to close window"
-msgstr ""
+msgstr "_Kliknutím zavřít okno"
 
 #: applets/wncklet/window-list.ui:348
 msgid "Mouse Scrolling"

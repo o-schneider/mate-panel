@@ -11,6 +11,9 @@
 # shy tzedaka <shaytzedaka123@gmail.com>, 2020
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Avi Markovitz <avi.markovitz@gmail.com>, 2024
+# Omer I.S., 2025
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -18,13 +21,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Hebrew (https://app.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 
 #: applets/clock/calendar-window.c:257 applets/clock/clock.ui:708
 msgid "Locations"
@@ -189,11 +192,11 @@ msgstr "על _אודות"
 
 #: applets/clock/clock.c:2020
 msgid "Copy _Time"
-msgstr "העתקת ה_שעה"
+msgstr "העתקת _שעה"
 
 #: applets/clock/clock.c:2023
 msgid "Copy _Date"
-msgstr "העתקת ה_תאריך"
+msgstr "העתקת _תאריך"
 
 #: applets/clock/clock.c:2026
 msgid "Ad_just Date & Time"
@@ -222,7 +225,7 @@ msgstr "שעון"
 
 #: applets/clock/clock.c:3582
 msgid "About Clock"
-msgstr ""
+msgstr "על אודות „שעון”"
 
 #: applets/clock/clock.c:3584
 msgid "The Clock displays the current time and date"
@@ -284,7 +287,7 @@ msgstr "_הגדרות שעה"
 #: mate-panel/panel-properties-dialog.ui:740
 #: mate-panel/panel-test-applets.ui:52
 msgid "_Close"
-msgstr "_סגור"
+msgstr "_סגירה"
 
 #: applets/clock/clock.ui:388
 msgid "Clock Format"
@@ -312,7 +315,7 @@ msgstr "הצגת השנ_יות"
 
 #: applets/clock/clock.ui:522
 msgid "Show wee_k numbers in calendar"
-msgstr ""
+msgstr "הצגת מספרי שבו_עות בלוח השנה"
 
 #: applets/clock/clock.ui:537
 msgid "Show _weather"
@@ -666,7 +669,7 @@ msgstr "דג"
 
 #: applets/fish/fish.c:554
 msgid "About Fish"
-msgstr ""
+msgstr "על אודות „דג”"
 
 #: applets/fish/fish.c:557
 msgid ""
@@ -678,7 +681,7 @@ msgstr ""
 #: applets/fish/fish.c:574
 #, c-format
 msgid "%s the Fish, a contemporary oracle"
-msgstr "%s הדג, נביא מודרני"
+msgstr "%s הדג, חוזה עתידות עכשווי"
 
 #: applets/fish/fish.c:640
 msgid "Unable to locate the command to execute"
@@ -795,15 +798,13 @@ msgstr "_סיבוב בלוחות אנכיים"
 
 #: applets/fish/org.mate.panel.applet.fish.gschema.xml.in:5
 msgid "The fish's name"
-msgstr "The fish's name"
+msgstr "שמו של הדג"
 
 #: applets/fish/org.mate.panel.applet.fish.gschema.xml.in:6
 msgid ""
 "A fish without a name is a pretty dull fish. Bring your fish to life by "
 "naming him."
-msgstr ""
-"A fish without a name is a pretty dull fish. Bring your fish to life by "
-"naming him."
+msgstr "דג בלי שם הוא דג משעמם. למה לא לקרוא לו בשם ולהפיח בו רוח חיים."
 
 #: applets/fish/org.mate.panel.applet.fish.gschema.xml.in:10
 msgid "The fish's animation pixmap"
@@ -878,7 +879,7 @@ msgstr "איזור הדיווחים"
 
 #: applets/notification_area/main.c:275
 msgid "About Notification Area"
-msgstr ""
+msgstr "על אודות „אזור ההתראות”"
 
 #: applets/notification_area/main.c:278
 msgid ""
@@ -894,7 +895,7 @@ msgstr "אזור ההתראות בלוח"
 
 #: applets/notification_area/notification-area-preferences-dialog.ui:46
 msgid "Notification Area Preferences"
-msgstr ""
+msgstr "העדפות אזור ההתראות"
 
 #: applets/notification_area/notification-area-preferences-dialog.ui:110
 msgid "_Minimum Icon Size:"
@@ -1101,7 +1102,7 @@ msgstr "לחצן הצגת שולחן העבודה"
 
 #: applets/wncklet/showdesktop.c:522
 msgid "About Show Desktop Button"
-msgstr ""
+msgstr "על אודות „כפתור הצגת שולחן העבודה”"
 
 #: applets/wncklet/showdesktop.c:524
 msgid "This button lets you hide all windows and show the desktop."
@@ -1129,7 +1130,7 @@ msgstr "_צג המערכת"
 
 #: applets/wncklet/window-list.c:1043
 msgid "About Window List"
-msgstr ""
+msgstr "על אודות „רשימת חלונות”"
 
 #: applets/wncklet/window-list.c:1045
 msgid ""
@@ -1164,7 +1165,7 @@ msgstr "0"
 
 #: applets/wncklet/window-list.ui:156
 msgid "px"
-msgstr ""
+msgstr "נק׳"
 
 #: applets/wncklet/window-list.ui:199
 msgid "Window Grouping"
@@ -1522,7 +1523,7 @@ msgstr ""
 
 #: data/org.mate.panel.menubar.gschema.xml.in:25
 msgid "Show desktop menu"
-msgstr ""
+msgstr "תפריט „הצגת שולחן העבודה”"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:26
 msgid "If true, show desktop item in menu bar."
@@ -2172,7 +2173,7 @@ msgstr "Disable connection to session manager"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "Specify file containing saved configuration"
-msgstr "הגדר קובץ המכיל הגדרות שמורות"
+msgstr "ציון קובץ שמכיל תצורה שמורה"
 
 #: mate-panel/mate-submodules/libegg/eggsmclient.c:239
 msgid "FILE"
@@ -2368,7 +2369,7 @@ msgstr "הוספת זאת כ_תפריט ללוח"
 
 #: mate-panel/panel-action-button.c:161
 msgid "_Activate Screensaver"
-msgstr "_הפעלת שומר המסך"
+msgstr "_איפשור שומר מרקע"
 
 #: mate-panel/panel-action-button.c:167
 msgid "_Lock Screen"
@@ -2590,7 +2591,7 @@ msgstr "חייב להיות לפחות לוח אחד."
 
 #: mate-panel/panel-context-menu.c:200
 msgid "Reset all panels?"
-msgstr ""
+msgstr "לאפס את כל הלוחות?"
 
 #: mate-panel/panel-context-menu.c:201
 msgid ""
@@ -2604,7 +2605,7 @@ msgstr "_איפוס לוחות"
 
 #: mate-panel/panel-context-menu.c:237
 msgid "_Add to Panel…"
-msgstr ""
+msgstr "הוס_פה ללוח..."
 
 #: mate-panel/panel-context-menu.c:258
 msgid "_Reset All Panels"
@@ -2681,7 +2682,7 @@ msgstr "_החזר"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:108
 msgid "_Ok"
-msgstr ""
+msgstr "_בסדר"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:163
 msgid "_Type:"
@@ -3251,7 +3252,7 @@ msgstr ""
 
 #: mate-panel/panel.c:678
 msgid "Do you want to use it as the panel's background?"
-msgstr ""
+msgstr "האם ברצונך להשתמש בה בתור הרקע של הלוח?"
 
 #: mate-panel/panel.c:692
 msgid "Create _Launcher"

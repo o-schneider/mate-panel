@@ -11,6 +11,8 @@
 # Germán Herrou <german.herrou@gmail.com>, 2018
 # Dario Badagnani <grupovmo@gmail.com>, 2018
 # Renzo Sparta <exequiel0210@gmail.com>, 2019
+# Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
@@ -18,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Renzo Sparta <exequiel0210@gmail.com>, 2019\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Spanish (Argentina) (https://app.transifex.com/mate/teams/13566/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -382,7 +384,7 @@ msgstr "Sur"
 #: applets/clock/clock.ui:968 mate-panel/libpanel-util/panel-gtk.c:141
 #: mate-panel/panel-applet-frame.c:959
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #. Languages that have a single word that translates as either "state" or
 #. "province" should use that instead of "region".
@@ -620,7 +622,7 @@ msgstr ""
 
 #: applets/fish/fish.c:423
 msgid "Images"
-msgstr ""
+msgstr "Imágenes"
 
 #: applets/fish/fish.c:529 applets/fish/fish.c:573 applets/fish/fish.c:679
 #, no-c-format
@@ -2034,7 +2036,7 @@ msgstr ""
 
 #: mate-panel/libpanel-util/panel-gtk.c:139
 msgid "_Open"
-msgstr ""
+msgstr "_Abrir"
 
 #: mate-panel/libpanel-util/panel-error.c:77
 #: mate-panel/panel-applet-frame.c:797 mate-panel/panel-applet-frame.c:985
@@ -2218,7 +2220,7 @@ msgstr ""
 
 #: mate-panel/panel-action-button.c:342
 msgid "Lock Screen"
-msgstr ""
+msgstr "Bloquear la pantalla"
 
 #: mate-panel/panel-action-button.c:343
 msgid "Protect your computer from unauthorized use"
@@ -2378,7 +2380,7 @@ msgstr ""
 
 #: mate-panel/panel-applet-frame.c:776 mate-panel/panel-applet-frame.c:781
 msgid "_Reload"
-msgstr ""
+msgstr "Re_cargar"
 
 #: mate-panel/panel-applet-frame.c:947
 #, c-format
@@ -2391,7 +2393,7 @@ msgstr ""
 
 #: mate-panel/panel-applet-frame.c:969 mate-panel/panel.c:1495
 msgid "_Delete"
-msgstr ""
+msgstr "_Borrar"
 
 #: mate-panel/panel-context-menu.c:92
 msgid "And many, many others…"
@@ -2515,7 +2517,7 @@ msgstr ""
 
 #: mate-panel/panel-ditem-editor-dialog.ui:60
 msgid "_Revert"
-msgstr ""
+msgstr "_Revertir"
 
 #: mate-panel/panel-ditem-editor-dialog.ui:108
 msgid "_Ok"
@@ -2638,6 +2640,8 @@ msgstr "Computadora"
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr ""
+"Examinar los discos locales y remotos y las carpetas accesibles desde este "
+"equipo"
 
 #: mate-panel/panel-menu-items.c:1093
 msgid "Network"
@@ -2645,7 +2649,7 @@ msgstr "Red"
 
 #: mate-panel/panel-menu-items.c:1094
 msgid "Browse bookmarked and local network locations"
-msgstr ""
+msgstr "Navegar por los marcadores y las ubicaciones de la red local"
 
 #: mate-panel/panel-menu-items.c:1457
 msgid "Places"

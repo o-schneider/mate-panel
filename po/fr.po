@@ -15,13 +15,13 @@
 # mauron, 2018
 # Étienne Deparis <etienne@depar.is>, 2018
 # Charles Monzat <c.monzat@laposte.net>, 2018
-# David D, 2019
 # Jérôme JACQUIN <chatbada24@laposte.net>, 2019
-# roxfr <roxfr@outlook.fr>, 2020
+# roxfr, 2020
 # Laurent Napias, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Tubuntu, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2023
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2023
+# David D, 2024
 # 
 msgid ""
 msgstr ""
@@ -29,7 +29,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Last-Translator: David D, 2024\n"
 "Language-Team: French (https://app.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1032,13 +1032,15 @@ msgstr ""
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:30
 msgid "Close window on middle mouse click"
-msgstr ""
+msgstr "Fermer fenêtre si clic bouton central souris"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:31
 msgid ""
 "If true, then clicking the middle mouse button over a taskbar item will "
 "close the window."
 msgstr ""
+"Si vrai, cliquer avec le bouton central de la souris sur un élément de la "
+"barre des tâches fermera la fenêtre."
 
 #: applets/wncklet/org.mate.panel.applet.workspace-switcher.gschema.xml.in:5
 msgid "Display workspace names"
@@ -1257,7 +1259,7 @@ msgstr "Bouton du milieu"
 
 #: applets/wncklet/window-list.ui:311
 msgid "_Click to close window"
-msgstr ""
+msgstr "_Cliquez pour fermer la fenêtre"
 
 #: applets/wncklet/window-list.ui:348
 msgid "Mouse Scrolling"
@@ -1732,7 +1734,7 @@ msgstr ""
 
 #: data/org.mate.panel.object.gschema.xml.in:20
 msgid "Interpret position relative to bottom/right edge (DEPRECATED)"
-msgstr ""
+msgstr "Interprète la position relativement au côté bas/droit (OBSOLÈTE)"
 
 #: data/org.mate.panel.object.gschema.xml.in:21
 msgid ""
@@ -1741,12 +1743,18 @@ msgid ""
 "backward compatibility with old panel layouts; please set the \"relative-to-"
 "edge\" property instead."
 msgstr ""
+"Si vrai, la position de l'objet est interprétée par rapport au bord droit "
+"(ou inférieur si vertical) du panneau. Cette clé est fournie uniquement à "
+"des fins de compatibilité descendante avec les anciennes dispositions de "
+"panneaux ; veuillez plutôt définir la propriété \"relativement au bord\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:25
 msgid ""
 "Whether to interpret the value of the \"position\" key relative to the "
 "start, center or end of the panel"
 msgstr ""
+"S'il faut interpréter la valeur de la touche \"position\" par rapport au "
+"début, au centre ou à la fin du panneau"
 
 #: data/org.mate.panel.object.gschema.xml.in:26
 msgid ""
@@ -1755,6 +1763,11 @@ msgid ""
 "to the start (left/top edge), center, or end (right/bottom edge) of the "
 "panel. Valid values for this key are 'start', 'center', and 'end'."
 msgstr ""
+"La position de l'objet est interprétée par rapport à un bord du panneau. La "
+"valeur de cette clé détermine si l'objet est positionné par rapport au début"
+" (bord gauche/supérieur), au centre ou à la fin (bord droit/inférieur) du "
+"panneau. Les valeurs valides pour cette clé sont « start », « center » et « "
+"end »."
 
 #: data/org.mate.panel.object.gschema.xml.in:30
 msgid "Lock the object to the panel"
@@ -1778,6 +1791,9 @@ msgid ""
 "\"ClockAppletFactory::ClockApplet\". This key is only relevant if the "
 "object-type key is 'applet'."
 msgstr ""
+"L'ID de l'implémentation de l'applet - c'est à dire "
+"« ClockAppletFactory::ClockApplet ». Cette clé n’est pertinente que si la "
+"clé de objet-type est \"applet\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:40
 msgid "Panel attached to drawer"
@@ -1788,6 +1804,8 @@ msgid ""
 "The identifier of the panel attached to this drawer. This key is only "
 "relevant if the object-type key is 'drawer'."
 msgstr ""
+"L'identifiant du panneau attaché à ce tiroir. Cette clé n'est pertinente que"
+" si la clé de type objet est \"drawer\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:45
 msgid "Tooltip displayed for drawer or menu"
@@ -1798,6 +1816,8 @@ msgid ""
 "The text to display in a tooltip for this drawer or this menu. This key is "
 "only relevant if the object-type key is 'drawer' or 'menu'."
 msgstr ""
+"Le texte à afficher dans une info-bulle pour ce tiroir ou ce menu. Cette clé"
+" n'est pertinente que si la clé de type objet est « drawer » ou « menu »."
 
 #: data/org.mate.panel.object.gschema.xml.in:50
 msgid "Use custom icon for object's button"
@@ -1809,6 +1829,9 @@ msgid ""
 "false, the custom-icon key is ignored. This key is only relevant if the "
 "object-type key is 'menu' or 'drawer-object'."
 msgstr ""
+"Si true, la touche custom_icon est utilisée comme icône personnalisée pour "
+"le bouton. Si false, la touche custom-icon est ignorée. Cette touche n’est "
+"pertinente que si la touche de type objet est \"menu\" ou \"drawer-object\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:55
 msgid "Icon used for object's button"
@@ -1820,6 +1843,9 @@ msgid ""
 "This key is only relevant if the object-type key is 'drawer' or 'menu' and "
 "the use-custom-icon key is true."
 msgstr ""
+"L’emplacement du fichier image utilisé comme icône pour le bouton de "
+"l’objet. Cette touche n’est pertinente que si la touche de type d’objet est "
+"\"drawer\" ou \"menu\" et que la touche use-custom-icon est true."
 
 #: data/org.mate.panel.object.gschema.xml.in:60
 msgid "Use custom path for menu contents"
@@ -1831,6 +1857,10 @@ msgid ""
 "should be constructed. If false, the menu-path key is ignored. This key is "
 "only relevant if the object-type key is 'menu'."
 msgstr ""
+"Si true, la touche menu_path est utilisée comme chemin d’accès à partir "
+"duquel le contenu du menu doit être construit. Si false, la touche menu-path"
+" est ignorée. Cette touche n’est pertinente que si la clé de type d’objet "
+"est \"menu\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:65
 msgid "Menu content path"
@@ -1841,6 +1871,9 @@ msgid ""
 "The path from which the menu contents is contructed. This key is only "
 "relevant if the use-menu-path key is true and the object-type key is 'menu'."
 msgstr ""
+"Le chemin d’accès à partir duquel le contenu du menu est construit. Cette "
+"clé n’est pertinente que si la clé use-menu-path est true et que la clé type"
+" objet est \"menu\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:70
 msgid "Draw arrow in menu button"
@@ -1863,6 +1896,8 @@ msgid ""
 "The location of the .desktop file describing the launcher. This key is only "
 "relevant if the object-type key is 'launcher'."
 msgstr ""
+"L’emplacement du fichier .desktop décrivant le lanceur. Cette clé n’est "
+"pertinente que si la clé de type d’objet est \"launcher\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:80
 msgid "Action button type"
@@ -1874,6 +1909,10 @@ msgid ""
 "'logout', 'run', 'search', 'force-quit', 'connect-server' and 'shutdown'. "
 "This key is only relevant if the object-type key is 'action'."
 msgstr ""
+"Le type d’action que représente ce bouton. Les valeurs possibles sont "
+"\"none\", \"lock\", \"logout\", \"run\", \"search\", \"force-quit\", "
+"\"connect-server\" et \"shutdown\". Cette clé n’est pertinente que si la clé"
+" de type objet est \"action\"."
 
 #: data/org.mate.panel.toplevel.gschema.xml.in:5
 msgid "Name to identify panel"

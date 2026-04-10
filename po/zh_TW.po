@@ -10,6 +10,7 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # lin feather <further.33.44@gmail.com>, 2023
 # 黃柏諺 <s8321414@gmail.com>, 2023
+# Woodman Tuen <wmtuen@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2023\n"
+"Last-Translator: Woodman Tuen <wmtuen@gmail.com>, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/mate/teams/13566/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,21 +36,21 @@ msgstr "編輯"
 
 #: applets/clock/calendar-window.c:484
 msgid "Calendar"
-msgstr "日曆"
+msgstr "月曆"
 
 #. Translators: This is a strftime format string.
 #. * It is used to display the time in 12-hours format (eg, like
 #. * in the US: 8:10 am). The %p expands to am/pm.
 #: applets/clock/clock.c:461
 msgid "%l:%M:%S %p"
-msgstr "%p %l:%M:%S"
+msgstr "%p%l:%M:%S"
 
 #. Translators: This is a strftime format string.
 #. * It is used to display the time in 12-hours format (eg, like
 #. * in the US: 8:10 am). The %p expands to am/pm.
 #: applets/clock/clock.c:461 applets/clock/clock-location-tile.c:500
 msgid "%l:%M %p"
-msgstr "%l:%M %p"
+msgstr "%p%l:%M"
 
 #. Translators: This is a strftime format string.
 #. * It is used to display the time in 24-hours format (eg, like
@@ -85,7 +86,7 @@ msgstr "%H:%M"
 #. * instead of "May  1").
 #: applets/clock/clock.c:477
 msgid "%a %b %e"
-msgstr "%-m月%-d日(%a)"
+msgstr "%b%e日(%a)"
 
 #: applets/clock/clock.c:484
 #, c-format
@@ -128,7 +129,7 @@ msgstr "電腦時鐘"
 #. * am/pm.
 #: applets/clock/clock.c:1721
 msgid "%I:%M:%S %p"
-msgstr "%p %I:%M:%S"
+msgstr "%p%I:%M:%S"
 
 #. Translators: This is a strftime format
 #. * string.
@@ -138,26 +139,26 @@ msgstr "%p %I:%M:%S"
 #. * am/pm.
 #: applets/clock/clock.c:1729
 msgid "%I:%M %p"
-msgstr "%p %I:%M"
+msgstr "%p%I:%M"
 
 #. Translators: This is a strftime format string.
 #. * It is used to display a date in the full format (so that people can
 #. * copy and paste it elsewhere).
 #: applets/clock/clock.c:1775
 msgid "%A, %B %d %Y"
-msgstr "%Y年%-m月%-d日(%A)"
+msgstr "%Y年%b%d日(%a)"
 
 #: applets/clock/clock.c:1806
 msgid "Set System Time..."
-msgstr "設定系統時刻…"
+msgstr "設定系統時間…"
 
 #: applets/clock/clock.c:1807
 msgid "Set System Time"
-msgstr "設定系統時刻"
+msgstr "設定系統時間"
 
 #: applets/clock/clock.c:1821
 msgid "Failed to set the system time"
-msgstr "設定系統時刻失敗"
+msgstr "設定系統時間失敗"
 
 #: applets/clock/clock.c:2011 applets/fish/fish.c:1690
 #: applets/notification_area/main.c:290 applets/wncklet/window-list.c:551
@@ -188,7 +189,7 @@ msgstr "關於(_A)"
 
 #: applets/clock/clock.c:2020
 msgid "Copy _Time"
-msgstr "複製時刻(_T)"
+msgstr "複製時間(_T)"
 
 #: applets/clock/clock.c:2023
 msgid "Copy _Date"
@@ -196,7 +197,7 @@ msgstr "複製日期(_D)"
 
 #: applets/clock/clock.c:2026
 msgid "Ad_just Date & Time"
-msgstr "調整日期及時刻(_J)"
+msgstr "調整日期及時間(_J)"
 
 #: applets/clock/clock.c:3099
 msgid "Choose Location"
@@ -225,7 +226,7 @@ msgstr "關於時鐘"
 
 #: applets/clock/clock.c:3584
 msgid "The Clock displays the current time and date"
-msgstr "時鐘程式可顯示目前的時間及日期"
+msgstr "時鐘程式可顯示目前的日期及時間"
 
 #: applets/clock/clock.c:3585
 msgid ""
@@ -251,7 +252,7 @@ msgstr ""
 
 #: applets/clock/clock.ui:31
 msgid "Time & Date"
-msgstr "時刻 & 日期"
+msgstr "日期及時間"
 
 #: applets/clock/clock.ui:46 applets/clock/clock.ui:952
 #: mate-panel/libpanel-util/panel-gtk.c:137
@@ -265,15 +266,15 @@ msgstr "取消(_C)"
 
 #: applets/clock/clock.ui:62
 msgid "_Set System Time"
-msgstr "設定系統時刻(_S)"
+msgstr "設定系統時間(_S)"
 
 #: applets/clock/clock.ui:198
 msgid "_Time:"
-msgstr "時刻(_T):"
+msgstr "時間(_T):"
 
 #: applets/clock/clock.ui:212
 msgid "Current Time:"
-msgstr "目前的時刻:"
+msgstr "目前的時間:"
 
 #: applets/clock/clock.ui:296
 msgid "Clock Preferences"
@@ -281,7 +282,7 @@ msgstr "時鐘偏好設定"
 
 #: applets/clock/clock.ui:328
 msgid "Time _Settings"
-msgstr "時刻設定值(_S)"
+msgstr "時間設定值(_S)"
 
 #: applets/clock/clock.ui:343 applets/fish/fish.c:849 applets/fish/fish.ui:62
 #: applets/notification_area/notification-area-preferences-dialog.ui:65
@@ -319,7 +320,7 @@ msgstr "顯示秒數(_N)"
 
 #: applets/clock/clock.ui:522
 msgid "Show wee_k numbers in calendar"
-msgstr "在日曆中顯示週數(_K)"
+msgstr "在月曆中顯示週數(_K)"
 
 #: applets/clock/clock.ui:537
 msgid "Show _weather"
@@ -434,7 +435,7 @@ msgstr "<small>設定</small>"
 #: applets/clock/clock-location-tile.c:304
 msgid ""
 "Set location as current location and use its timezone for this computer"
-msgstr "將位置設為目前的位置，並使用其時區設為這臺電腦目前的時區"
+msgstr "將位置設為目前位置，並將其設為這台電腦的時區"
 
 #. Translators: This is a strftime format string.
 #. * It is used to display the time in 12-hours format
@@ -489,12 +490,12 @@ msgstr "日出: %s / 日落: %s"
 #: mate-panel/libpanel-util/panel-show.c:235
 #, c-format
 msgid "Could not display help document '%s'"
-msgstr "無法顯示「%s」的求助文件。"
+msgstr "無法顯示「%s」的說明文件。"
 
 #: applets/clock/clock-utils.c:121 applets/fish/fish.c:194
 #: applets/notification_area/main.c:250 applets/wncklet/wncklet.c:91
 msgid "Error displaying help document"
-msgstr "顯示求助文件時發生錯誤"
+msgstr "顯示說明文件時發生錯誤"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:29
 msgid "Hour format"
@@ -560,7 +561,7 @@ msgstr "在時鐘內顯示天氣"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:55
 msgid "If true, display a weather icon."
-msgstr "如果為‘true’，顯示天氣圖示。"
+msgstr "如果設定為‘true’，顯示天氣圖示。"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:59
 msgid "Show temperature in clock"
@@ -568,31 +569,31 @@ msgstr "在時鐘內顯示溫度"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:60
 msgid "If true, show the temperature next to the weather icon."
-msgstr "如果為‘true’，在天氣圖示旁顯示溫度。"
+msgstr "如果設定為‘true’，在天氣圖示旁顯示溫度。"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:64
 msgid "Show week numbers in calendar"
-msgstr "在日曆中顯示週中日數（即週六、週日）"
+msgstr "在月曆中顯示週數（即週六、週日）"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:65
 msgid "If true, show week numbers in the calendar."
-msgstr "如設定為‘true’，會在日曆中顯示週中日數（即週六、週日）。"
+msgstr "如設定為‘true’，會在月曆中顯示週數（即週六、週日）。"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:69
 msgid "Expand list of locations"
-msgstr "展開位置的清單"
+msgstr "展開位置清單"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:70
 msgid "If true, expand the list of locations in the calendar window."
-msgstr "如果為‘true’，展開行事曆中的位置清單。"
+msgstr "如設定為‘true’，在月曆中展開位置清單。"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:74
 msgid "List of locations"
-msgstr "位置的清單"
+msgstr "位置清單"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:75
 msgid "A list of locations to display in the calendar window."
-msgstr "要在行事曆視窗中顯示的位置清單。"
+msgstr "要在月曆視窗中顯示位置清單。"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:79
 msgid "Temperature unit"
@@ -600,7 +601,7 @@ msgstr "溫度單位"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:80
 msgid "The unit to use when showing temperatures."
-msgstr "在顯示溫度時使用的單位。"
+msgstr "顯示溫度時使用的單位。"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:84
 msgid "Speed unit"
@@ -608,7 +609,7 @@ msgstr "速度單位"
 
 #: applets/clock/org.mate.panel.applet.clock.gschema.xml.in:85
 msgid "The unit to use when showing wind speed."
-msgstr "在顯示風速時使用的單位。"
+msgstr "顯示風速時使用的單位。"
 
 #: applets/clock/org.mate.panel.ClockApplet.mate-panel-applet.desktop.in.in:6
 msgid "Clock Applet Factory"

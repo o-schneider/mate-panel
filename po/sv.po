@@ -15,10 +15,11 @@
 # Claes-Göran Nydahl <goldug@gmail.com>, 2018
 # Tobias Lekare <lekare@linux.com>, 2018
 # Philip Andersen <renegadevi@codeofmagi.net>, 2018
-# Luna Jernberg <bittin@cafe8bitar.se>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # cb445fb3dfd1fe3c2b9f58ac5638f478, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2023
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2023
+# Luna Jernberg <droidbittin@gmail.com>, 2024
+# Daniel Nylander <po@danielnylander.se>, 2025
 # 
 msgid ""
 msgstr ""
@@ -26,7 +27,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-panel/issues\n"
 "POT-Creation-Date: 2023-09-02 19:26+0200\n"
 "PO-Revision-Date: 2018-03-11 19:58+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -250,7 +251,9 @@ msgstr ""
 #: applets/wncklet/workspace-switcher.c:735
 #: mate-panel/panel-context-menu.c:125
 msgid "translator-credits"
-msgstr "Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>\n"
+"Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
 
 #: applets/clock/clock.ui:31
 msgid "Time & Date"
@@ -683,7 +686,7 @@ msgstr "Fisk"
 
 #: applets/fish/fish.c:554
 msgid "About Fish"
-msgstr ""
+msgstr "Om fisk"
 
 #: applets/fish/fish.c:557
 msgid ""
@@ -899,7 +902,7 @@ msgstr "Notifieringsyta"
 
 #: applets/notification_area/main.c:275
 msgid "About Notification Area"
-msgstr ""
+msgstr "Om panelnotifieringsyta"
 
 #: applets/notification_area/main.c:278
 msgid ""
@@ -919,11 +922,11 @@ msgstr "Panelnotifieringsyta"
 
 #: applets/notification_area/notification-area-preferences-dialog.ui:46
 msgid "Notification Area Preferences"
-msgstr ""
+msgstr "Inställningar för notifieringsyta"
 
 #: applets/notification_area/notification-area-preferences-dialog.ui:110
 msgid "_Minimum Icon Size:"
-msgstr "_Minimal Ikonstorlek"
+msgstr "_Minimal ikonstorlek:"
 
 #: applets/notification_area/notification-area-preferences-dialog.ui:124
 msgid "26"
@@ -940,7 +943,7 @@ msgstr "Minimal ikonstorlek"
 
 #: applets/notification_area/org.mate.panel.applet.notification-area.gschema.xml.in:6
 msgid "The minimum size an icon can have."
-msgstr ""
+msgstr "Den minsta storlek en ikon kan ha."
 
 #: applets/notification_area/org.mate.panel.NotificationAreaApplet.mate-panel-applet.desktop.in.in:6
 msgid "Notification Area Factory"
@@ -992,23 +995,27 @@ msgstr ""
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:25
 msgid "Whether to enable mouse scrolling in the switch window list"
-msgstr ""
+msgstr "Huruvida musrullning ska aktiveras i listan över växlingsfönster"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:26
 msgid ""
 "If true, enable mouse scrolling in window list, otherwise disable mouse "
 "scrolling in window list."
 msgstr ""
+"Om sant, aktivera musrullning i fönsterlistan, annars inaktivera musrullning"
+" i fönsterlistan."
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:30
 msgid "Close window on middle mouse click"
-msgstr ""
+msgstr "Stäng fönstret med mittenmusklick"
 
 #: applets/wncklet/org.mate.panel.applet.window-list.gschema.xml.in:31
 msgid ""
 "If true, then clicking the middle mouse button over a taskbar item will "
 "close the window."
 msgstr ""
+"Om det är sant stängs fönstret om du klickar på den mellersta musknappen "
+"över ett objekt i aktivitetsfältet."
 
 #: applets/wncklet/org.mate.panel.applet.workspace-switcher.gschema.xml.in:5
 msgid "Display workspace names"
@@ -1129,7 +1136,7 @@ msgstr "Visa skrivbordsknapp"
 
 #: applets/wncklet/showdesktop.c:522
 msgid "About Show Desktop Button"
-msgstr ""
+msgstr "Om visa skrivbordsknapp"
 
 #: applets/wncklet/showdesktop.c:524
 msgid "This button lets you hide all windows and show the desktop."
@@ -1160,7 +1167,7 @@ msgstr "_Systemövervakaren"
 
 #: applets/wncklet/window-list.c:1043
 msgid "About Window List"
-msgstr ""
+msgstr "Om fönsterlista"
 
 #: applets/wncklet/window-list.c:1045
 msgid ""
@@ -1176,19 +1183,20 @@ msgstr "Inställningar för fönsterlista"
 
 #: applets/wncklet/window-list.ui:97
 msgid "Window Thumbnails"
-msgstr ""
+msgstr "Fönster miniatyrer"
 
 #: applets/wncklet/window-list.ui:118
 msgid "Show _thumbnails on hover"
-msgstr ""
+msgstr "Visa _miniatyrbilder vid svävning"
 
 #: applets/wncklet/window-list.ui:140
 msgid "Thumbnail width in pixels. Window aspect ratio will be maintained."
 msgstr ""
+"Miniatyrbilder bredd i pixlar. Fönsterbildförhållande kommer att bibehållas."
 
 #: applets/wncklet/window-list.ui:141
 msgid "Thumbnail width:"
-msgstr ""
+msgstr "Miniatyrbilder bredd:"
 
 #: applets/wncklet/window-list.ui:154
 msgid "0"
@@ -1220,15 +1228,15 @@ msgstr "Mittenmusknapp"
 
 #: applets/wncklet/window-list.ui:311
 msgid "_Click to close window"
-msgstr ""
+msgstr "_Klicka för att stänga fönster"
 
 #: applets/wncklet/window-list.ui:348
 msgid "Mouse Scrolling"
-msgstr ""
+msgstr "Musrullning"
 
 #: applets/wncklet/window-list.ui:369
 msgid "_Enable mouse scrolling"
-msgstr ""
+msgstr "_Aktivera musrullning"
 
 #: applets/wncklet/window-list.ui:402
 msgid "Behaviour"
@@ -1265,7 +1273,7 @@ msgstr "Arbetsytor"
 
 #: applets/wncklet/window-menu.c:84
 msgid "About Window Selector"
-msgstr ""
+msgstr "Om fönsterväljare"
 
 #: applets/wncklet/window-menu.c:86
 msgid ""
@@ -1302,7 +1310,7 @@ msgstr "kolumner"
 
 #: applets/wncklet/workspace-switcher.c:726
 msgid "About Workspace Switcher"
-msgstr ""
+msgstr "Om arbetsyteväxlare"
 
 #: applets/wncklet/workspace-switcher.c:728
 msgid ""
@@ -1407,7 +1415,7 @@ msgid ""
 msgstr ""
 "Detta är listan på kommandon som används i \"Kör program\"-dialogen. "
 "Kommandona är sorterade i nedstigande baserat på senaste (t.ex. det senast "
-"använda kommandot kommer först). "
+"använda kommandot kommer först)."
 
 #: data/org.mate.panel.gschema.xml.in:30
 msgid "Maximum history size for \"Run Application\" dialog"
@@ -1639,13 +1647,15 @@ msgstr ""
 
 #: data/org.mate.panel.menubar.gschema.xml.in:56
 msgid "Maximum number of recent documents displayed in the Places menu"
-msgstr ""
+msgstr "Maximalt antal senaste dokument som visas i platser menyn"
 
 #: data/org.mate.panel.menubar.gschema.xml.in:57
 msgid ""
 "Maximum number of recent documents that are displayed in the Places menu at "
 "a time. If this is set to -1, all known recent documents will be displayed."
 msgstr ""
+"Maximalt antal senaste dokument som visas i platser menyn åt gången. Om "
+"denna är inställd på -1 kommer alla kända senaste dokument att visas."
 
 #: data/org.mate.panel.object.gschema.xml.in:5
 msgid "Panel object type"
@@ -1677,7 +1687,7 @@ msgstr ""
 
 #: data/org.mate.panel.object.gschema.xml.in:20
 msgid "Interpret position relative to bottom/right edge (DEPRECATED)"
-msgstr ""
+msgstr "Tolkningsposition i förhållande till nedre/högra kanten (FÖRÅLDRAD)"
 
 #: data/org.mate.panel.object.gschema.xml.in:21
 msgid ""
@@ -1686,12 +1696,18 @@ msgid ""
 "backward compatibility with old panel layouts; please set the \"relative-to-"
 "edge\" property instead."
 msgstr ""
+"Om true, tolkas objektets position i förhållande till panelens högra (eller "
+"nedre om den är vertikal) kant. Denna nyckel tillhandahålls endast för "
+"bakåtkompatibilitet med gamla panellayouter; ställ in egenskapen \"relative-"
+"to-edge\" istället."
 
 #: data/org.mate.panel.object.gschema.xml.in:25
 msgid ""
 "Whether to interpret the value of the \"position\" key relative to the "
 "start, center or end of the panel"
 msgstr ""
+"Huruvida värdet på \"position\"-knappen ska tolkas i förhållande till "
+"panelens början, mitt eller slut"
 
 #: data/org.mate.panel.object.gschema.xml.in:26
 msgid ""
@@ -1700,6 +1716,10 @@ msgid ""
 "to the start (left/top edge), center, or end (right/bottom edge) of the "
 "panel. Valid values for this key are 'start', 'center', and 'end'."
 msgstr ""
+"Objektets position tolkas i förhållande till en kant på panelen. Värdet på "
+"denna nyckel avgör om objektet är positionerat i förhållande till panelens "
+"start (vänster/översta kant), mitt eller slut (höger/nedre kant). Giltiga "
+"värden för den här nyckeln är \"start\", \"center\" och \"end\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:30
 msgid "Lock the object to the panel"
@@ -1723,6 +1743,8 @@ msgid ""
 "\"ClockAppletFactory::ClockApplet\". This key is only relevant if the "
 "object-type key is 'applet'."
 msgstr ""
+"Implementerings-ID för appleten - t.ex. \"ClockAppletFactory::ClockApplet\"."
+" Denna nyckel är endast relevant om nyckeln för objekttypen är \"applet\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:40
 msgid "Panel attached to drawer"
@@ -1733,6 +1755,8 @@ msgid ""
 "The identifier of the panel attached to this drawer. This key is only "
 "relevant if the object-type key is 'drawer'."
 msgstr ""
+"Identifieraren för den panel som är kopplad till denna låda. Denna nyckel är"
+" endast relevant om nyckeln för objekttyp är \"drawer\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:45
 msgid "Tooltip displayed for drawer or menu"
@@ -1743,6 +1767,9 @@ msgid ""
 "The text to display in a tooltip for this drawer or this menu. This key is "
 "only relevant if the object-type key is 'drawer' or 'menu'."
 msgstr ""
+"Den text som ska visas i en tooltip för den här lådan eller den här menyn. "
+"Denna nyckel är endast relevant om objekttypnyckeln är \"drawer\" eller "
+"\"menu\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:50
 msgid "Use custom icon for object's button"
@@ -1754,6 +1781,9 @@ msgid ""
 "false, the custom-icon key is ignored. This key is only relevant if the "
 "object-type key is 'menu' or 'drawer-object'."
 msgstr ""
+"Om true används custom_icon-nyckeln som en anpassad ikon för knappen. Om "
+"false ignoreras custom-icon-nyckeln. Denna nyckel är endast relevant om "
+"objekttypsnyckeln är \"menu\" eller \"drawer-object\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:55
 msgid "Icon used for object's button"
@@ -1765,6 +1795,9 @@ msgid ""
 "This key is only relevant if the object-type key is 'drawer' or 'menu' and "
 "the use-custom-icon key is true."
 msgstr ""
+"Platsen för den bildfil som används som ikon för objektets knapp. Denna "
+"nyckel är endast relevant om objekttypnyckeln är \"drawer\" eller \"menu\" "
+"och nyckeln use-custom-icon är true."
 
 #: data/org.mate.panel.object.gschema.xml.in:60
 msgid "Use custom path for menu contents"
@@ -1776,6 +1809,9 @@ msgid ""
 "should be constructed. If false, the menu-path key is ignored. This key is "
 "only relevant if the object-type key is 'menu'."
 msgstr ""
+"Om true används nyckeln menu_path som den sökväg från vilken menyinnehållet "
+"ska konstrueras. Om false, ignoreras nyckeln menu-path. Denna nyckel är "
+"endast relevant om objekttypnyckeln är 'menu'."
 
 #: data/org.mate.panel.object.gschema.xml.in:65
 msgid "Menu content path"
@@ -1786,6 +1822,9 @@ msgid ""
 "The path from which the menu contents is contructed. This key is only "
 "relevant if the use-menu-path key is true and the object-type key is 'menu'."
 msgstr ""
+"Den sökväg från vilken menyinnehållet är konstruerat. Denna nyckel är endast"
+" relevant om nyckeln use-menu-path är true och nyckeln object-type är "
+"'menu'."
 
 #: data/org.mate.panel.object.gschema.xml.in:70
 msgid "Draw arrow in menu button"
@@ -1808,6 +1847,8 @@ msgid ""
 "The location of the .desktop file describing the launcher. This key is only "
 "relevant if the object-type key is 'launcher'."
 msgstr ""
+"Platsen för .desktop-filen som beskriver startprogrammet. Denna nyckel är "
+"endast relevant om nyckeln för objekttyp är \"launcher\"."
 
 #: data/org.mate.panel.object.gschema.xml.in:80
 msgid "Action button type"
@@ -1819,6 +1860,10 @@ msgid ""
 "'logout', 'run', 'search', 'force-quit', 'connect-server' and 'shutdown'. "
 "This key is only relevant if the object-type key is 'action'."
 msgstr ""
+"Den åtgärdstyp som denna knapp representerar. Möjliga värden är 'none', "
+"'lock', 'logout', 'run', 'search', 'force-quit', 'connect-server' och "
+"'shutdown'. Denna nyckel är endast relevant om nyckeln för objekttyp är "
+"\"action\"."
 
 #: data/org.mate.panel.toplevel.gschema.xml.in:5
 msgid "Name to identify panel"
@@ -2539,7 +2584,7 @@ msgstr "Klassisk meny"
 
 #: mate-panel/panel-addto.c:167
 msgid "The classic Applications, Places and System menu bar"
-msgstr ""
+msgstr "Den klassiska menyraden för program, platser och system"
 
 #: mate-panel/panel-addto.c:178
 msgid "Separator"
@@ -2634,7 +2679,7 @@ msgstr "_Ta bort"
 
 #: mate-panel/panel-context-menu.c:92
 msgid "And many, many others…"
-msgstr "Och många, många andra..."
+msgstr "Och många, många andra…"
 
 #: mate-panel/panel-context-menu.c:115
 msgid "The MATE Panel"
@@ -2672,25 +2717,27 @@ msgstr "Du måste alltid ha åtminstone en panel."
 
 #: mate-panel/panel-context-menu.c:200
 msgid "Reset all panels?"
-msgstr ""
+msgstr "Återställ alla paneler?"
 
 #: mate-panel/panel-context-menu.c:201
 msgid ""
 "When the panels are reset, all \n"
 "custom settings are lost."
 msgstr ""
+"När panelerna återställs, kommer alla\n"
+"anpassade inställningar gå förlorade."
 
 #: mate-panel/panel-context-menu.c:215
 msgid "_Reset Panels"
-msgstr ""
+msgstr "_Återställ paneler"
 
 #: mate-panel/panel-context-menu.c:237
 msgid "_Add to Panel…"
-msgstr "_Lägg till i panel..."
+msgstr "_Lägg till i panel…"
 
 #: mate-panel/panel-context-menu.c:258
 msgid "_Reset All Panels"
-msgstr ""
+msgstr "_Återställ alla paneler"
 
 #: mate-panel/panel-context-menu.c:265
 msgid "_Delete This Panel"
@@ -3329,25 +3376,26 @@ msgstr "Öppna URL: %s"
 
 #: mate-panel/panel.c:670
 msgid "You dropped an image on the panel, what do you want to do?"
-msgstr ""
+msgstr "Du släppte en bild på panelen, vad vill du göra?"
 
 #: mate-panel/panel.c:672
 #, c-format
 msgid "You dropped the image \"%s\" on the panel."
-msgstr ""
+msgstr "Du släppte bilden \"%s\" på panelen."
 
 #: mate-panel/panel.c:675
 msgid ""
 "Do you want to create a launcher for it or use it as the panel's background?"
 msgstr ""
+"Vill du skapa en startare för den eller använda den som bakgrund på panelen?"
 
 #: mate-panel/panel.c:678
 msgid "Do you want to use it as the panel's background?"
-msgstr ""
+msgstr "Vill du använda den som bakgrund för panelen?"
 
 #: mate-panel/panel.c:692
 msgid "Create _Launcher"
-msgstr ""
+msgstr "Skapa _programstartare"
 
 #: mate-panel/panel.c:696
 msgid "Set _Background Image"
@@ -3379,16 +3427,16 @@ msgstr ""
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:5
 msgid "Test DBus Applet Factory"
-msgstr ""
+msgstr "Testa DBus Applet Factory"
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:6
 msgid "Factory for Test DBus Applet"
-msgstr ""
+msgstr "Fabrik för test DBus Applet"
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:9
 msgid "Test DBus Applet"
-msgstr ""
+msgstr "Testa DBus-appleten"
 
 #: libmate-panel-applet/org.mate.panel.TestApplet.mate-panel-applet.desktop.in:10
 msgid "A simple applet for testing the MATE panel"
-msgstr ""
+msgstr "En enkel applet för testning av MATE-panelen"
